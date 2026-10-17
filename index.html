@@ -1,0 +1,46 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>洛克人 X 指令任務｜繁中攻略站</title><style>body{font-family:system-ui;background:#11151b;color:#eef2f7;margin:0}main{max-width:980px;margin:auto;padding:24px}nav{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}button{background:#1d2530;color:#fff;border:1px solid #394657;border-radius:10px;padding:10px 14px}.p{display:none}.p.a{display:block}.card{background:#18202a;border:1px solid #344050;border-radius:14px;padding:16px;margin:12px 0}pre,textarea{background:#0b0f14;color:#dce7f5;border:1px solid #344050;border-radius:10px;padding:12px;white-space:pre-wrap;width:100%;box-sizing:border-box}a{color:#9ec1ff}.muted{color:#a9b4c0}</style></head><body><main><div class="muted">PS2 日版｜SLPM-65643｜CRC 2AF40F67</div><h1>洛克人 X 指令任務｜繁中攻略站</h1><p>劇情照跑、能買就買、能收就收；角色夠強，不在路上被王送回家。</p><nav><button data-t="home">總覽</button><button data-t="route">100% 路線</button><button data-t="secret">隱藏內容</button><button data-t="cheat">金手指</button><button data-t="src">資料來源</button></nav><section id="home" class="p a"><div class="card"><h2>重新玩建議</h2><p>角色照劇情入隊；武器、Force Metal、Figure、商店與寶箱自己收。破關後再進 Special Sealed Area 清 OneTail～NineTails。</p></div></section><section id="route" class="p"><div class="card"><h2>100% 路線</h2><p><b>CH1～3：</b>每張地圖掃乾淨，開始固定回基地看商店與派遣。</p><p><b>CH4～7：</b>派遣拿鑰匙、Sketch、FM 素材，別只衝主線。</p><p><b>CH8～9：</b>補秘密區域、秘密商店、隱藏 Hyper。</p><p><b>CH10 前：</b>處理採買與收集，再進最後長劇情。</p><p><b>破關後：</b>Clear Data → Central Key → Special Sealed Area → 九尾一族 → 最終收集。</p></div></section><section id="secret" class="p"><div class="card"><h2>隱藏內容</h2><p><b>Ultimate Armor：</b>Tianna Key → Tianna Camp 秘密區 → Rafflesian。</p><p><b>Absolute Zero：</b>Melda Key → Melda Ore Plant 秘密區 → Duckbill Mole。</p><p><b>秘密商店：</b>Lagrano Ruins 的 Cumin、Jasmine、Saffron。</p><p><b>破關後：</b>Central Key 開中央塔底層封印區，挑戰 OneTail～NineTails。</p></div></section><section id="cheat" class="p"><div class="card"><h2>滿級大佬但保留收集</h2><pre>gametitle=Rockman X Command Mission (Japan) SLPM-65643
+
+// 金錢 9,999,999
+patch=1,EE,2055794C,extended,0098967F
+
+// 全7角色 EXP 最大
+patch=1,EE,40557968,extended,00070035
+patch=1,EE,0098967F,extended,00000000
+
+// LE 9999
+patch=1,EE,4055796C,extended,00070035
+patch=1,EE,0000270F,extended,00000000
+patch=1,EE,40557970,extended,00070035
+patch=1,EE,0000270F,extended,00000000
+patch=1,EE,40557974,extended,00070035
+patch=1,EE,0000270F,extended,00000000
+
+// WE 100 + 回復100
+patch=1,EE,40557978,extended,00070035
+patch=1,EE,00000064,extended,00000000
+patch=1,EE,4055797C,extended,00070035
+patch=1,EE,00000064,extended,00000000
+
+// PWR 999
+patch=1,EE,40557980,extended,00070035
+patch=1,EE,000003E7,extended,00000000
+
+// AMR 999
+patch=1,EE,40557984,extended,00070035
+patch=1,EE,000003E7,extended,00000000
+
+// SHD 999
+patch=1,EE,40557988,extended,00070035
+patch=1,EE,000003E7,extended,00000000
+
+// HYPER 99
+patch=1,EE,40557930,extended,00070035
+patch=1,EE,00000063,extended,00000000
+
+// L1 + START = 關閉遇敵
+patch=1,EE,D065B442,extended,0000FBF7
+patch=1,EE,20163B00,extended,10000024
+
+// R1 + START = 恢復遇敵
+patch=1,EE,D065B442,extended,0000F7F7
+patch=1,EE,20163B00,extended,14600024</pre><p class="muted">檔名：SLPM-65643_2AF40F67.pnach</p></div></section><section id="src" class="p"><div class="card"><h2>資料來源</h2><p><a href="https://rmmh.blogspot.com/2019/08/stagemap-x.html" target="_blank">RMMH 洛克人回憶之館｜繁中圖文攻略</a></p><p><a href="https://gamefaqs.gamespot.com/ps2/919001-mega-man-x-command-mission/faqs/33063" target="_blank">GameFAQs｜100% Completion Guide</a></p><p><a href="https://psxdatacenter.com/psx2/games2/SLPM-65643.html" target="_blank">PSX Data Center｜日版資料</a></p></div></section><script>const bs=[...document.querySelectorAll('nav button')],ps=[...document.querySelectorAll('.p')];bs.forEach(b=>b.onclick=()=>{ps.forEach(p=>p.classList.toggle('a',p.id===b.dataset.t))})</script></main></body></html>
