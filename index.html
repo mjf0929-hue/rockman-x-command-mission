@@ -1,46 +1,341 @@
-<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>洛克人 X 指令任務｜繁中攻略站</title><style>body{font-family:system-ui;background:#11151b;color:#eef2f7;margin:0}main{max-width:980px;margin:auto;padding:24px}nav{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}button{background:#1d2530;color:#fff;border:1px solid #394657;border-radius:10px;padding:10px 14px}.p{display:none}.p.a{display:block}.card{background:#18202a;border:1px solid #344050;border-radius:14px;padding:16px;margin:12px 0}pre,textarea{background:#0b0f14;color:#dce7f5;border:1px solid #344050;border-radius:10px;padding:12px;white-space:pre-wrap;width:100%;box-sizing:border-box}a{color:#9ec1ff}.muted{color:#a9b4c0}</style></head><body><main><div class="muted">PS2 日版｜SLPM-65643｜CRC 2AF40F67</div><h1>洛克人 X 指令任務｜繁中攻略站</h1><p>劇情照跑、能買就買、能收就收；角色夠強，不在路上被王送回家。</p><nav><button data-t="home">總覽</button><button data-t="route">100% 路線</button><button data-t="secret">隱藏內容</button><button data-t="cheat">金手指</button><button data-t="src">資料來源</button></nav><section id="home" class="p a"><div class="card"><h2>重新玩建議</h2><p>角色照劇情入隊；武器、Force Metal、Figure、商店與寶箱自己收。破關後再進 Special Sealed Area 清 OneTail～NineTails。</p></div></section><section id="route" class="p"><div class="card"><h2>100% 路線</h2><p><b>CH1～3：</b>每張地圖掃乾淨，開始固定回基地看商店與派遣。</p><p><b>CH4～7：</b>派遣拿鑰匙、Sketch、FM 素材，別只衝主線。</p><p><b>CH8～9：</b>補秘密區域、秘密商店、隱藏 Hyper。</p><p><b>CH10 前：</b>處理採買與收集，再進最後長劇情。</p><p><b>破關後：</b>Clear Data → Central Key → Special Sealed Area → 九尾一族 → 最終收集。</p></div></section><section id="secret" class="p"><div class="card"><h2>隱藏內容</h2><p><b>Ultimate Armor：</b>Tianna Key → Tianna Camp 秘密區 → Rafflesian。</p><p><b>Absolute Zero：</b>Melda Key → Melda Ore Plant 秘密區 → Duckbill Mole。</p><p><b>秘密商店：</b>Lagrano Ruins 的 Cumin、Jasmine、Saffron。</p><p><b>破關後：</b>Central Key 開中央塔底層封印區，挑戰 OneTail～NineTails。</p></div></section><section id="cheat" class="p"><div class="card"><h2>滿級大佬但保留收集</h2><pre>gametitle=Rockman X Command Mission (Japan) SLPM-65643
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>洛克人 X 指令任務｜繁中 100% 攻略站</title>
+<style>
+:root{--bg:#0e1117;--panel:#151b24;--card:#1a2230;--text:#f4f7fb;--muted:#a9b4c3;--line:#334155;--blue:#67a8ff;--cyan:#67e8f9;--gold:#f7c948;--red:#ff7b7b;--green:#7ce6a5}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(180deg,#0d1118,#111723 45%,#0d1118);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.65}
+.wrap{max-width:1180px;margin:auto;padding:22px}
+.hero{padding:22px;border:1px solid var(--line);background:linear-gradient(135deg,#15233a,#151922 55%,#231b1b);border-radius:18px}
+.kicker{color:var(--cyan);font-size:13px;font-weight:700}
+h1{margin:4px 0 8px;font-size:clamp(26px,4vw,42px);line-height:1.15}
+h2{margin:0 0 12px;font-size:24px}
+h3{margin:0 0 8px;font-size:18px}
+.sub{color:var(--muted)}
+.nav{display:flex;gap:8px;overflow-x:auto;padding:14px 0;position:sticky;top:0;z-index:20;background:rgba(14,17,23,.92);backdrop-filter:blur(10px)}
+.nav button{white-space:nowrap;background:#151b24;color:var(--text);border:1px solid var(--line);border-radius:11px;padding:10px 14px;cursor:pointer}
+.nav button.active{background:#233b66;border-color:#5f9ef5}
+.page{display:none}.page.active{display:block}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:12px}
+.card{background:rgba(26,34,48,.92);border:1px solid var(--line);border-radius:15px;padding:16px}
+.badge{display:inline-flex;padding:4px 9px;border-radius:999px;font-size:12px;border:1px solid var(--line);background:#111827;color:#dbeafe}
+.badge.blue{color:#b9d7ff;border-color:#315c91}.badge.gold{color:#ffe296;border-color:#80651e}.badge.green{color:#b8f3ca;border-color:#2c6c45}.badge.red{color:#ffc0c0;border-color:#7f3b3b}
+.chapter{margin:12px 0;border-left:4px solid #568bd1}
+.chapter .route{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin:10px 0}
+.node{padding:6px 9px;border:1px solid var(--line);border-radius:9px;background:#111827;font-size:13px}.arr{color:#718096}
+ul{margin:8px 0 0;padding-left:20px}
+li{margin:5px 0}
+.warn{border-left:4px solid #efb64d;background:#2a2519;padding:12px 14px;border-radius:10px}
+.ok{border-left:4px solid #5bd38a;background:#17271d;padding:12px 14px;border-radius:10px}
+.danger{border-left:4px solid #ee6b6b;background:#2b1b1b;padding:12px 14px;border-radius:10px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{border-bottom:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}
+th{color:#cfe2ff;background:#151d29;position:sticky;top:62px}
+.tablewrap{overflow:auto;border:1px solid var(--line);border-radius:12px}
+code,pre,textarea{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+pre{margin:0;background:#0a0f16;border:1px solid #2e3a4a;border-radius:12px;padding:14px;white-space:pre-wrap;overflow:auto;color:#e7eef8}
+textarea{width:100%;min-height:430px;background:#0a0f16;color:#e7eef8;border:1px solid #2e3a4a;border-radius:12px;padding:14px;resize:vertical}
+a{color:#8fc1ff}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.action{border:1px solid var(--line);background:#17202c;color:white;border-radius:10px;padding:9px 12px;cursor:pointer}
+input[type=checkbox]{width:18px;height:18px}
+.check{display:flex;gap:10px;align-items:flex-start;padding:11px;border:1px solid var(--line);border-radius:10px;background:#121923}
+.pwd{font-weight:800;letter-spacing:1.2px;color:#ffe48a}
+.gloss{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.gloss div{padding:8px 10px;border:1px solid var(--line);border-radius:9px;background:#121923}
+details{border:1px solid var(--line);border-radius:12px;background:#121923;margin:10px 0}
+summary{cursor:pointer;padding:13px 15px;font-weight:700}
+.detailsbody{padding:0 15px 15px}
+hr{border:0;border-top:1px solid var(--line);margin:18px 0}
+.small{font-size:13px;color:var(--muted)}
+@media(max-width:620px){.wrap{padding:12px}.gloss{grid-template-columns:1fr}th{top:58px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <div class="kicker">PS2 日版專用｜SLPM-65643｜CRC 2AF40F67</div>
+  <h1>洛克人 X 指令任務｜繁中 100% 攻略站</h1>
+  <div class="sub">全站以中文為主。英文／日文只放在括號裡方便對照，不再拿英文當主標。</div>
+  <div class="toolbar">
+    <span class="badge blue">10 章主線</span><span class="badge green">收集清單</span><span class="badge gold">隱藏型態／九尾</span><span class="badge red">日版金手指</span>
+  </div>
+</header>
 
-// 金錢 9,999,999
-patch=1,EE,2055794C,extended,0098967F
+<nav class="nav">
+  <button class="active" data-page="home">首頁</button>
+  <button data-page="chapters">全章攻略</button>
+  <button data-page="collect">100% 收集</button>
+  <button data-page="secret">隱藏內容</button>
+  <button data-page="figure">公仔／密碼</button>
+  <button data-page="cheat">金手指</button>
+  <button data-page="glossary">名詞翻譯</button>
+  <button data-page="sources">資料來源</button>
+</nav>
 
-// 全7角色 EXP 最大
+<section id="home" class="page active">
+  <div class="grid">
+    <div class="card"><h3>你這次的玩法</h3><p>角色一入隊就是高等大佬，但<strong>劇情、商店、武器、FM、公仔、寶箱都照正常流程自己拿</strong>。不開全武器、不強制全角色。</p></div>
+    <div class="card"><h3>最重要的習慣</h3><p>每破一章都回基地：<strong>商店看新貨 → 派遣收結果 → 補 FM → 再進下一章</strong>。很多 100% 漏項不是藏在迷宮，而是漏掉章節更新。</p></div>
+    <div class="card"><h3>破關不等於結束</h3><p>破關後拿中央鑰匙，才會開放<strong>特別封印區</strong>與一尾～九尾。你以前打完九尾，這次可以直接用清單確認有沒有漏收。</p></div>
+  </div>
+  <div class="card" style="margin-top:12px">
+    <h2>這次重玩總清單</h2>
+    <div class="grid" id="mainChecklist">
+      <label class="check"><input type="checkbox"><span>主線 CH1～CH10 全破</span></label>
+      <label class="check"><input type="checkbox"><span>每章商店新貨掃過</span></label>
+      <label class="check"><input type="checkbox"><span>派遣任務與派遣成員整理</span></label>
+      <label class="check"><input type="checkbox"><span>X 隱藏型態：終極鎧甲</span></label>
+      <label class="check"><input type="checkbox"><span>Zero 隱藏型態：絕對零度</span></label>
+      <label class="check"><input type="checkbox"><span>永恆森林探索</span></label>
+      <label class="check"><input type="checkbox"><span>特別封印區</span></label>
+      <label class="check"><input type="checkbox"><span>一尾～九尾全擊破</span></label>
+      <label class="check"><input type="checkbox"><span>日版密碼公仔 12 隻</span></label>
+      <label class="check"><input type="checkbox"><span>影片／資料／公仔最後補齊</span></label>
+    </div>
+    <p class="small" id="checkCount">完成 0 / 10</p>
+  </div>
+</section>
+
+<section id="chapters" class="page">
+  <div class="warn"><b>用法：</b>每一章先看「不可漏」，再照流程跑。英文原名只放小字對照。</div>
+
+  <article class="card chapter">
+    <span class="badge blue">CH1</span><h2>潛入基坎提斯！</h2><div class="small">舞台：拉格廢墟｜原名：Infiltrate Giga City!</div>
+    <div class="route"><span class="node">艾克斯單獨行動</span><span class="arr">→</span><span class="node">與傑洛會合</span><span class="arr">→</span><span class="node">河馬型頭目</span><span class="arr">→</span><span class="node">劇情分離</span></div>
+    <ul><li>前期先熟悉衝撞破壞場景物件，很多小道具藏在可破壞物附近。</li><li>這章不用為了練等停留；你已經有滿等碼，重點改成<strong>把可拿的箱子與 FM 撿乾淨</strong>。</li><li>章末劇情後，存檔再進下一段。</li></ul>
+  </article>
+
+  <article class="card chapter">
+    <span class="badge blue">CH2</span><h2>奪回中央塔</h2><div class="small">舞台：中央塔｜原名：Recapture Central Tower</div>
+    <div class="route"><span class="node">新希望基地</span><span class="arr">→</span><span class="node">中央塔</span><span class="arr">→</span><span class="node">史派達加入</span><span class="arr">→</span><span class="node">狂野強哥</span></div>
+    <ul><li>這章結束後，基地功能才真正展開：<strong>商店、傳送、派遣</strong>開始變得重要。</li><li>之後每一章破完，都回來看商店有沒有新增武器／副武器／FM。</li><li>別把「錢滿」誤認成「商店全開」：商品仍然跟劇情進度走。</li></ul>
+  </article>
+
+  <article class="card chapter">
+    <span class="badge blue">CH3</span><h2>紙上英雄</h2><div class="small">舞台：提亞納營地｜頭目：巨角（Silver Horn）</div>
+    <div class="route"><span class="node">前往營地</span><span class="arr">→</span><span class="node">麥西摩加入</span><span class="arr">→</span><span class="node">避開高速敵人區</span><span class="arr">→</span><span class="node">巨角戰</span></div>
+    <ul><li>這章開始多注意分岔房間，主路旁的小門常放道具。</li><li>章後可開始留意提亞納相關派遣，後面隱藏內容會用到這區的鑰匙。</li></ul>
+  </article>
+
+  <article class="card chapter">
+    <span class="badge blue">CH4</span><h2>高迪爾研究所</h2><div class="small">舞台：高迪爾研究所｜重點角色：瑪莉諾、席娜蒙</div>
+    <div class="route"><span class="node">研究所探索</span><span class="arr">→</span><span class="node">瑪莉諾／席娜蒙劇情</span><span class="arr">→</span><span class="node">賽克博士</span><span class="arr">→</span><span class="node">連續頭目</span></div>
+    <ul><li>開始有更多 FM 與角色專屬玩法，這章後建議把每個新角色的裝備頁都看一次。</li><li>看到新派遣就先派，不要堆著；100% 最常漏的就是派遣資料與素材。</li></ul>
+  </article>
+
+  <article class="card chapter">
+    <span class="badge blue">CH5</span><h2>獵人聯手</h2><div class="small">舞台：烏魯工廠｜重點：艾克賽爾登場</div>
+    <div class="route"><span class="node">工廠</span><span class="arr">→</span><span class="node">艾克賽爾</span><span class="arr">→</span><span class="node">傑洛再登場</span><span class="arr">→</span><span class="node">紳士戰</span></div>
+    <ul><li>從 CH5 起，派遣可能挖到後期非常有用的<strong>X 反轉類 FM</strong>。</li><li>如果你要「能收就收」，這時開始把派遣當主線的一部分。</li></ul>
+  </article>
+
+  <article class="card chapter">
+    <span class="badge blue">CH6</span><h2>友情的意義</h2><div class="small">舞台：吉米亞拉礦山｜頭目：安榭塔斯</div>
+    <div class="route"><span class="node">礦山探索</span><span class="arr">→</span><span class="node">傑洛／夏德劇情</span><span class="arr">→</span><span class="node">安榭塔斯</span><span class="arr">→</span><span class="node">重大劇情</span></div>
+    <ul><li>地圖偏長，善用你的「遇敵開關」：探索時關、想刷掉落時再開。</li><li>派遣仍要收，後期材料與資料會從這裡補。</li></ul>
+  </article>
+
+  <article class="card chapter">
+    <span class="badge blue">CH7</span><h2>攻擊基地台！</h2><div class="small">舞台：巴拿利亞沙漠｜頭目：波羅克</div>
+    <div class="route"><span class="node">流沙區</span><span class="arr">→</span><span class="node">能源管判讀</span><span class="arr">→</span><span class="node">鏡面雷射機關</span><span class="arr">→</span><span class="node">3F 頭目</span></div>
+    <ul><li><b>流沙：</b>看能源管百分比，找零頭的管線方向前進。</li><li><b>鏡子機關：</b>先轉後方路線的鏡子，再處理前面的，避免雷射誤射敵人裝置。</li><li>CH7 派遣能取得後期重要 FM；進 CH10 前最好確認有沒有拿到<strong>完全反制</strong>類的重要品。</li></ul>
+  </article>
+
+  <article class="card chapter">
+    <span class="badge blue">CH8</span><h2>終極武器</h2><div class="small">舞台：梅爾達礦石工廠｜頭目：波羅克、費拉姆</div>
+    <div class="route"><span class="node">礦石工廠</span><span class="arr">→</span><span class="node">波羅克戰</span><span class="arr">→</span><span class="node">費拉姆戰</span><span class="arr">→</span><span class="node">超 FM 劇情</span></div>
+    <ul><li>這章後開始進入終盤，沒撿完的舊區域可以用傳送回去整理。</li><li>梅爾達相關秘密鑰匙會關係到 Zero 的隱藏型態，記得看「隱藏內容」頁。</li></ul>
+  </article>
+
+  <article class="card chapter">
+    <span class="badge blue">CH9</span><h2>決戰時刻</h2><div class="small">舞台：墓地遺跡基地／中央塔｜重點頭目：刀疤鐵面、伊普西隆</div>
+    <div class="route"><span class="node">基地遭襲</span><span class="arr">→</span><span class="node">刀疤鐵面</span><span class="arr">→</span><span class="node">反攻</span><span class="arr">→</span><span class="node">伊普西隆</span></div>
+    <ul><li>刀疤鐵面會針對同類型攻擊做防護，正常玩法要射擊／格鬥交替。</li><li>你雖然數值很高，還是建議留意 Boss 機制，這樣重玩不會變純看動畫。</li></ul>
+  </article>
+
+  <article class="card chapter">
+    <span class="badge blue">CH10</span><h2>在正義的名義下</h2><div class="small">最終章｜原名：In The Name Of JUSTICE</div>
+    <div class="danger"><b>重要：</b>去停機坪後就是一連串劇情，先把該買、該收、該派遣的東西處理完。</div>
+    <ul><li>進終章前先確認 CH5～7 派遣的 X 反轉類 FM、CH7 的完全反制。</li><li>空中都市商店可補後期武器，例如傑洛三屬性「+」劍、艾克賽爾雙槍 III 等。</li><li>有興趣可刷「噴油槍」；正常掉率非常低，但對無屬性弱點的頭目很有用。</li><li>最終戰完成後<strong>一定要存 Clear Data</strong>，不然破關後封印區不會正式進入你的收集流程。</li></ul>
+  </article>
+</section>
+
+<section id="collect" class="page">
+  <div class="card">
+    <h2>100% 收集檢查表</h2>
+    <div class="grid">
+      <label class="check"><input type="checkbox"><span>CH1～CH10 主線影片全部取得</span></label>
+      <label class="check"><input type="checkbox"><span>派遣取得的影片／資料檔補齊</span></label>
+      <label class="check"><input type="checkbox"><span>三台公仔機都開過</span></label>
+      <label class="check"><input type="checkbox"><span>日版密碼公仔 12 隻</span></label>
+      <label class="check"><input type="checkbox"><span>特殊公仔組 1～6</span></label>
+      <label class="check"><input type="checkbox"><span>密碼公仔組 1～2</span></label>
+      <label class="check"><input type="checkbox"><span>秘密商店三商人</span></label>
+      <label class="check"><input type="checkbox"><span>提亞納秘密區</span></label>
+      <label class="check"><input type="checkbox"><span>梅爾達秘密區</span></label>
+      <label class="check"><input type="checkbox"><span>永恆森林</span></label>
+      <label class="check"><input type="checkbox"><span>特別封印區</span></label>
+      <label class="check"><input type="checkbox"><span>一尾～九尾</span></label>
+    </div>
+    <div class="ok" style="margin-top:14px"><b>你的舊檔判讀：</b>公仔畫面出現「NEW」代表已經取得、只是還沒點開看；沒有 NEW 的格子是你已經閱覽過，不是缺少。</div>
+  </div>
+
+  <div class="card">
+    <h2>影片／資料容易漏在哪</h2>
+    <p>很多影片不是主線自動給，而是派遣取得。例如中央塔、提亞納營地、研究所、烏魯工廠、礦山、沙漠等區都有派遣對應內容。破關後還有中央塔隱藏房間與最終影片。</p>
+    <p class="small">如果你的舊檔真的約 98%，最後 2% 很可能就在派遣資料、公仔未檢查、秘密區掉落或極低機率副武器，而不是漏掉整段大型劇情。</p>
+  </div>
+</section>
+
+<section id="secret" class="page">
+  <div class="grid">
+    <div class="card"><span class="badge gold">X</span><h2>終極鎧甲</h2><p><b>提亞納鑰匙</b> → 回提亞納營地秘密區 → 擊敗<strong>拉芙蕾西亞</strong> → 取得 X 的強力隱藏 Hyper。</p><p class="small">原名：Ultimate Armor / Rafflesian</p></div>
+    <div class="card"><span class="badge gold">ZERO</span><h2>絕對零度</h2><p><b>梅爾達鑰匙</b> → 梅爾達礦石工廠秘密區 → 擊敗<strong>鴨嘴獸</strong>系隱藏頭目 → 取得你說的「翅膀惡魔傑洛」。</p><p class="small">原名：Absolute Zero / Duckbill Mole</p></div>
+  </div>
+  <div class="card">
+    <h2>特別封印區與九尾一族</h2>
+    <div class="route"><span class="node">破關</span><span class="arr">→</span><span class="node">Clear Data</span><span class="arr">→</span><span class="node">中央鑰匙</span><span class="arr">→</span><span class="node">中央塔底層封印門</span><span class="arr">→</span><span class="node">一尾～九尾</span></div>
+    <p>八尾後還會進一步碰到最終公仔機。這裡不是普通「二周目附贈」，而是整個遊戲最後一大塊收集區。</p>
+  </div>
+  <div class="card"><h2>秘密商店</h2><p>拉格廢墟隱藏區的三位商人：<strong>Cumin／Jasmine／Saffron</strong>。你記得的「第一關頂樓、三個商人、貓爪」就是這套。</p></div>
+</section>
+
+<section id="figure" class="page">
+  <div class="warn"><b>重要修正：</b>你玩的是<strong>日版</strong>。下面全部改成日版密碼，不再放美版那組。</div>
+  <div class="card">
+    <h2>日版密碼公仔 12 隻</h2>
+    <div class="tablewrap"><table>
+      <thead><tr><th>中文名稱</th><th>日版密碼</th><th>備註</th></tr></thead>
+      <tbody>
+        <tr><td>艾克斯</td><td class="pwd">19670801</td><td>X</td></tr>
+        <tr><td>艾克斯・勝利姿勢</td><td class="pwd">78523511</td><td>X 勝利造型</td></tr>
+        <tr><td>艾克斯・火焰造型</td><td class="pwd">32603260</td><td>X Fire</td></tr>
+        <tr><td>傑洛</td><td class="pwd">33515937</td><td>Zero</td></tr>
+        <tr><td>黑色傑洛</td><td class="pwd">69203600</td><td>Black Zero</td></tr>
+        <tr><td>艾克賽爾</td><td class="pwd">44527839</td><td>Axl</td></tr>
+        <tr><td>艾克賽爾・變身姿勢</td><td class="pwd">46925056</td><td>DNA Change 姿勢</td></tr>
+        <tr><td>瑪莉諾</td><td class="pwd">20040729</td><td>Marino</td></tr>
+        <tr><td>瑪莉諾・高速型態</td><td class="pwd">19780506</td><td>Quicksilver</td></tr>
+        <tr><td>席娜蒙</td><td class="pwd">10950508</td><td>Cinnamon</td></tr>
+        <tr><td>席娜蒙・鋼鐵處女</td><td class="pwd">31415926</td><td>Iron Maiden</td></tr>
+        <tr><td>麥西摩・強化裝甲</td><td class="pwd">82536252</td><td>Dymonion</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <div class="card">
+    <h2>公仔機位置</h2>
+    <ul><li><b>第 1 台：</b>東廣場，空中巴士出發口後的主要走廊。</li><li><b>第 2 台：</b>南廣場，進中央塔後第二條走廊。</li><li><b>第 3 台：</b>特別封印區，擊敗八尾後的左側路線。</li></ul>
+  </div>
+</section>
+
+<section id="cheat" class="page">
+  <div class="ok"><b>你的目標：</b>不怕死、不缺錢、不用練等；但武器、FM、公仔、商店、劇情照正常取得。</div>
+  <div class="card">
+    <h2>推薦開啟</h2>
+    <div class="grid">
+      <label class="check"><input class="ct" type="checkbox" value="zenny" checked><span>金錢 9,999,999</span></label>
+      <label class="check"><input class="ct" type="checkbox" value="exp" checked><span>全 7 角色 EXP 最大</span></label>
+      <label class="check"><input class="ct" type="checkbox" value="le" checked><span>LE 9999</span></label>
+      <label class="check"><input class="ct" type="checkbox" value="we" checked><span>WE 100＋每回合回復 100</span></label>
+      <label class="check"><input class="ct" type="checkbox" value="pwr" checked><span>力量 999</span></label>
+      <label class="check"><input class="ct" type="checkbox" value="def" checked><span>裝甲／護盾 999</span></label>
+      <label class="check"><input class="ct" type="checkbox" value="hyper" checked><span>Hyper 99</span></label>
+      <label class="check"><input class="ct" type="checkbox" value="enc" checked><span>隨機遇敵手動開關</span></label>
+    </div>
+    <p class="small">EXP 最大第一次戰鬥會從 Lv.1 一路跑升級動畫到 Lv.99，所以會卡一下；你已經實測成功。</p>
+    <textarea id="codeout" readonly></textarea>
+    <div class="toolbar"><button class="action" id="sel">全選代碼</button><span class="small">檔名：SLPM-65643_2AF40F67.pnach</span></div>
+  </div>
+  <div class="card">
+    <h2>不建議常駐</h2>
+    <ul><li><b>速度 999：</b>很可能變成敵人幾乎沒有行動機會，戰鬥機制直接消失。</li><li><b>火／冰／雷全吸收：</b>會把屬性戰鬥玩壞，不符合你「可以打但不想死」的需求。</li><li><b>全公仔／全收藏：</b>你想自己收，所以別開。</li><li><b>強制全角色：</b>會破壞正常劇情入隊節奏，所以別開。</li></ul>
+  </div>
+</section>
+
+<section id="glossary" class="page">
+  <div class="card">
+    <h2>常見英文／日文 → 中文</h2>
+    <div class="gloss">
+      <div><b>Main Weapon</b><br>主武器</div><div><b>Sub Weapon</b><br>副武器</div>
+      <div><b>Force Metal / FM</b><br>Force Metal／FM</div><div><b>Hyper Mode</b><br>Hyper 型態／變身</div>
+      <div><b>Action Trigger</b><br>角色特殊操作技</div><div><b>Figure</b><br>公仔／模型</div>
+      <div><b>Deployment</b><br>派遣任務</div><div><b>Special Sealed Area</b><br>特別封印區</div>
+      <div><b>Ultimate Armor</b><br>終極鎧甲</div><div><b>Absolute Zero</b><br>絕對零度傑洛／翅膀惡魔傑洛</div>
+      <div><b>LE</b><br>生命值</div><div><b>WE</b><br>武器能量</div>
+      <div><b>PWR</b><br>力量／攻擊</div><div><b>AMR</b><br>裝甲／防禦</div>
+      <div><b>SHD</b><br>護盾相關能力</div><div><b>SPD</b><br>速度／行動順序</div>
+    </div>
+  </div>
+</section>
+
+<section id="sources" class="page">
+  <div class="card">
+    <h2>參考資料</h2>
+    <p>本站不是把英文攻略整頁貼過來，而是重新整理成繁中流程與檢查表。需要看原始地圖／原始資料時再點來源。</p>
+    <ul>
+      <li><a target="_blank" rel="noreferrer" href="https://rmmh.blogspot.com/2019/08/stagemap-x.html">RMMH 洛克人回憶之館｜指令任務舞台地圖總表</a></li>
+      <li><a target="_blank" rel="noreferrer" href="https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-guide-7.html">RMMH｜第七話：攻擊基地台！</a></li>
+      <li><a target="_blank" rel="noreferrer" href="https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-guide-9.html">RMMH｜第九話：決戰時刻</a></li>
+      <li><a target="_blank" rel="noreferrer" href="https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-guide-10.html">RMMH｜第十話：在正義的名義下</a></li>
+      <li><a target="_blank" rel="noreferrer" href="https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-guide-ex.html">RMMH｜特殊頭目</a></li>
+      <li><a target="_blank" rel="noreferrer" href="https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-data-5.html">RMMH｜收集要素</a></li>
+      <li><a target="_blank" rel="noreferrer" href="https://gamefaqs.gamespot.com/ps2/919001-mega-man-x-command-mission/faqs/33063">GameFAQs｜100% Completion Guide</a></li>
+      <li><a target="_blank" rel="noreferrer" href="https://gamefaqs.gamespot.com/ps2/919001-mega-man-x-command-mission/cheats">GameFAQs｜日版公仔密碼</a></li>
+    </ul>
+  </div>
+</section>
+
+<script>
+const nav=[...document.querySelectorAll('.nav button')],pages=[...document.querySelectorAll('.page')];
+nav.forEach(b=>b.addEventListener('click',()=>{nav.forEach(x=>x.classList.toggle('active',x===b));pages.forEach(p=>p.classList.toggle('active',p.id===b.dataset.page));window.scrollTo({top:0,behavior:'smooth'})}));
+const mc=[...document.querySelectorAll('#mainChecklist input')],cc=document.getElementById('checkCount');
+function count(){cc.textContent='完成 '+mc.filter(x=>x.checked).length+' / '+mc.length}mc.forEach(x=>x.addEventListener('change',count));count();
+
+const blocks={
+zenny:`// 金錢 9,999,999
+patch=1,EE,2055794C,extended,0098967F`,
+exp:`// 全7角色 EXP 最大
 patch=1,EE,40557968,extended,00070035
-patch=1,EE,0098967F,extended,00000000
-
-// LE 9999
+patch=1,EE,0098967F,extended,00000000`,
+le:`// LE 9999
 patch=1,EE,4055796C,extended,00070035
 patch=1,EE,0000270F,extended,00000000
 patch=1,EE,40557970,extended,00070035
 patch=1,EE,0000270F,extended,00000000
 patch=1,EE,40557974,extended,00070035
-patch=1,EE,0000270F,extended,00000000
-
-// WE 100 + 回復100
+patch=1,EE,0000270F,extended,00000000`,
+we:`// WE 100 + 回復100
 patch=1,EE,40557978,extended,00070035
 patch=1,EE,00000064,extended,00000000
 patch=1,EE,4055797C,extended,00070035
-patch=1,EE,00000064,extended,00000000
-
-// PWR 999
+patch=1,EE,00000064,extended,00000000`,
+pwr:`// PWR 999
 patch=1,EE,40557980,extended,00070035
-patch=1,EE,000003E7,extended,00000000
-
-// AMR 999
+patch=1,EE,000003E7,extended,00000000`,
+def:`// AMR 999 / SHD 999
 patch=1,EE,40557984,extended,00070035
 patch=1,EE,000003E7,extended,00000000
-
-// SHD 999
 patch=1,EE,40557988,extended,00070035
-patch=1,EE,000003E7,extended,00000000
-
-// HYPER 99
+patch=1,EE,000003E7,extended,00000000`,
+hyper:`// HYPER 99
 patch=1,EE,40557930,extended,00070035
-patch=1,EE,00000063,extended,00000000
-
-// L1 + START = 關閉遇敵
+patch=1,EE,00000063,extended,00000000`,
+enc:`// L1 + START = 關閉隨機遇敵
 patch=1,EE,D065B442,extended,0000FBF7
 patch=1,EE,20163B00,extended,10000024
 
-// R1 + START = 恢復遇敵
+// R1 + START = 恢復隨機遇敵
 patch=1,EE,D065B442,extended,0000F7F7
-patch=1,EE,20163B00,extended,14600024</pre><p class="muted">檔名：SLPM-65643_2AF40F67.pnach</p></div></section><section id="src" class="p"><div class="card"><h2>資料來源</h2><p><a href="https://rmmh.blogspot.com/2019/08/stagemap-x.html" target="_blank">RMMH 洛克人回憶之館｜繁中圖文攻略</a></p><p><a href="https://gamefaqs.gamespot.com/ps2/919001-mega-man-x-command-mission/faqs/33063" target="_blank">GameFAQs｜100% Completion Guide</a></p><p><a href="https://psxdatacenter.com/psx2/games2/SLPM-65643.html" target="_blank">PSX Data Center｜日版資料</a></p></div></section><script>const bs=[...document.querySelectorAll('nav button')],ps=[...document.querySelectorAll('.p')];bs.forEach(b=>b.onclick=()=>{ps.forEach(p=>p.classList.toggle('a',p.id===b.dataset.t))})</script></main></body></html>
+patch=1,EE,20163B00,extended,14600024`
+};
+const toggles=[...document.querySelectorAll('.ct')],out=document.getElementById('codeout');
+function render(){out.value='gametitle=Rockman X Command Mission (Japan) SLPM-65643\n\n'+toggles.filter(x=>x.checked).map(x=>blocks[x.value]).join('\n\n')}
+toggles.forEach(x=>x.addEventListener('change',render));render();
+document.getElementById('sel').addEventListener('click',()=>{out.focus();out.select()});
+</script>
+</div></body></html>
