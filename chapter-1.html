@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>第一章：潛入基坎提斯｜洛克人 X 指令任務繁中攻略</title>
+<style>
+:root{--bg:#0d1117;--panel:#151c26;--card:#1a2330;--text:#f4f7fb;--muted:#aeb9c7;--line:#344255;--blue:#75b3ff;--gold:#ffd166;--green:#78e6a3;--red:#ff8787}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(#0c1118,#111925);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI","Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.7}
+.wrap{max-width:1120px;margin:auto;padding:20px}.top{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}.top a{color:#cfe3ff;text-decoration:none;border:1px solid var(--line);padding:8px 11px;border-radius:10px;background:#131a23}
+.hero{background:linear-gradient(135deg,#183053,#171b24 55%,#251e1e);border:1px solid var(--line);border-radius:18px;padding:22px}.kicker{color:#78ddff;font-size:13px;font-weight:800}h1{font-size:clamp(28px,5vw,44px);margin:4px 0 8px}h2{margin:0 0 12px;font-size:25px}h3{margin:0 0 8px}.muted{color:var(--muted)}a{color:#8ec1ff}.card{background:rgba(26,35,48,.95);border:1px solid var(--line);border-radius:15px;padding:17px;margin:14px 0}
+.notice{border-left:4px solid var(--gold);background:#292416;padding:12px 14px;border-radius:10px}.ok{border-left:4px solid var(--green);background:#16271d;padding:12px 14px;border-radius:10px}.danger{border-left:4px solid var(--red);background:#2a1a1a;padding:12px 14px;border-radius:10px}
+.toc{display:flex;gap:8px;flex-wrap:wrap}.toc a{padding:7px 10px;border-radius:999px;border:1px solid var(--line);text-decoration:none;background:#111923}
+.floor{color:#9bc8ff;font-weight:800}.key{display:inline-block;padding:1px 7px;border-radius:7px;background:#0b1119;border:1px solid #54677f;font-family:ui-monospace,monospace;font-weight:900}
+.steps{counter-reset:s;display:grid;gap:10px}.step{counter-increment:s;position:relative;padding:14px 14px 14px 55px;background:#111923;border:1px solid var(--line);border-radius:12px}.step:before{content:counter(s);position:absolute;left:14px;top:13px;width:29px;height:29px;border-radius:50%;background:#2c5e99;display:grid;place-items:center;font-weight:900}.step b{color:#dcecff}.item{color:#c2d0df;font-size:14px;margin-top:5px}
+.diagram{overflow:auto;border:1px solid var(--line);border-radius:14px;background:#0b1017;padding:12px}.diagram svg{min-width:760px;width:100%;height:auto;display:block}.box{fill:#172234;stroke:#6b8fbf;stroke-width:2}.loot{fill:#2a2415;stroke:#d0a545}.boss{fill:#2d1a1a;stroke:#dc7171}.secret{fill:#16261d;stroke:#65c88b}.t{fill:#eef5ff;font-size:15px;font-family:system-ui,"Noto Sans TC",sans-serif}.smallt{fill:#c0cad8;font-size:12px;font-family:system-ui,"Noto Sans TC",sans-serif}.arrow{stroke:#82b8ff;stroke-width:3;fill:none;marker-end:url(#arr)}table{width:100%;border-collapse:collapse}th,td{padding:10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:#131b26;color:#d6e8ff}.tablewrap{overflow:auto;border:1px solid var(--line);border-radius:12px}ul{padding-left:22px}.badge{display:inline-block;border:1px solid var(--line);padding:4px 9px;border-radius:999px;font-size:12px}.source{font-size:13px;color:var(--muted)}
+@media(max-width:640px){.wrap{padding:12px}.card{padding:14px}}
+</style></head>
+<body><div class="wrap">
+<div class="top"><a href="index.html">← 攻略站首頁</a><a href="secret-lagrano.html">拉格拉諾隱藏區／秘密商店 →</a></div>
+<header class="hero"><div class="kicker">CHAPTER 1｜拉格拉諾廢墟｜完成版 v1</div><h1>第一章：潛入基坎提斯</h1><div class="muted">這篇不是摘要。從開場分離後開始，逐層寫到影子背叛；道具、終端、通話、同步機關、Boss、戰後回收與之後要回來的隱藏門全部列出。</div></header>
+
+<div class="card"><div class="toc"><a href="#before">進場前</a><a href="#f1">1F</a><a href="#f2">2F</a><a href="#f3">3F</a><a href="#f4">4F／Boss</a><a href="#after">Boss 後</a><a href="#items">全道具清單</a><a href="#secret">隱藏門</a></div></div>
+
+<section id="before" class="card"><h2>先知道 4 件事</h2>
+<ul>
+<li><b>藍色資料晶體：</b>用場景衝刺撞破；本章會拿到金錢、Build 系道具。</li>
+<li><b>黃色資料晶體：</b>是 LE／能源槽補充。滿狀態時可能拿不起來；如果你要算「現場道具全取」，可先打一場讓自己受傷，再回來拿。</li>
+<li><b>紫色資料晶體：</b>本章 Boss 後會拿到能源槽零件（Tank Parts）。</li>
+<li><b>方向基準：</b>以下東西南北以遊戲地圖為準；如果鏡頭轉過，先開地圖確認方向，不要用畫面左右硬猜。</li>
+</ul>
+<div class="notice"><b>你現在有 Lv.99 金手指：</b>戰鬥難度不是問題，這篇的重點就是「路不要走錯、東西不要漏」。</div>
+</section>
+
+<section id="f1" class="card"><h2><span class="floor">1F 東區</span>：第一個安全終端</h2>
+<div class="diagram"><svg viewBox="0 0 920 230" role="img" aria-label="1F 路線示意">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#82b8ff"/></marker></defs>
+<rect class="box" x="20" y="75" width="130" height="70" rx="12"/><text class="t" x="85" y="105" text-anchor="middle">開場房</text><text class="smallt" x="85" y="128" text-anchor="middle">走東北門</text>
+<path class="arrow" d="M150 110 H220"/><rect class="box" x="220" y="75" width="145" height="70" rx="12"/><text class="t" x="292" y="105" text-anchor="middle">1F 東走廊</text><text class="smallt" x="292" y="128" text-anchor="middle">第一岔路往南</text>
+<path class="arrow" d="M365 110 H430"/><rect class="box" x="430" y="28" width="135" height="62" rx="12"/><text class="t" x="497" y="56" text-anchor="middle">第一間</text><text class="smallt" x="497" y="78" text-anchor="middle">儲存點</text>
+<rect class="box" x="430" y="132" width="135" height="62" rx="12"/><text class="t" x="497" y="160" text-anchor="middle">第二間</text><text class="smallt" x="497" y="182" text-anchor="middle">安全終端</text>
+<path class="arrow" d="M565 163 H650"/><rect class="loot" x="650" y="128" width="120" height="70" rx="12"/><text class="t" x="710" y="157" text-anchor="middle">開鎖後</text><text class="smallt" x="710" y="178" text-anchor="middle">50Z＋Build LE</text>
+<path class="arrow" d="M770 163 H875"/><text class="t" x="875" y="155" text-anchor="end">→ 南門</text><text class="smallt" x="875" y="178" text-anchor="end">上 2F</text>
+</svg></div>
+<div class="steps">
+<div class="step"><b>開場三人被落石分開後，艾克斯單獨行動。</b><br>從起點進<strong>東北方向唯一能走的門</strong>。另一側被瓦礫堵死，不用找路。</div>
+<div class="step"><b>進入 1F 東區走廊後往南。</b><br>第一個房間是儲存點；第二個房間有安全終端。先進第二間調查電腦。</div>
+<div class="step"><b>調查終端 → 解除 1F 西區門鎖 → 傑洛第一次正式通訊。</b><br>這段會解釋：東區的終端控制西區門，西區終端則控制東區門，所以接下來你和傑洛要隔牆互相開路。</div>
+<div class="step"><b>出房後把走廊兩顆藍色資料晶體撞掉。</b><div class="item">取得：50 Zenny、Build LE。</div></div>
+<div class="step"><b>穿過剛解除的南側門，進 1F→2F 樓梯。</b><br>樓梯沒有支線，直接上 2F。</div>
+</div></section>
+
+<section id="f2" class="card"><h2><span class="floor">2F 東區</span>：第一批培養膠囊</h2>
+<div class="diagram"><svg viewBox="0 0 920 240">
+<defs><marker id="arr2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#82b8ff"/></marker></defs>
+<rect class="box" x="20" y="82" width="150" height="72" rx="12"/><text class="t" x="95" y="111" text-anchor="middle">2F 東區</text><text class="smallt" x="95" y="134" text-anchor="middle">黃晶體：Energy 25</text>
+<path d="M170 118 H245" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#arr2)"/>
+<rect class="box" x="245" y="82" width="175" height="72" rx="12"/><text class="t" x="332" y="109" text-anchor="middle">新型思考型機器人</text><text class="smallt" x="332" y="133" text-anchor="middle">4 個膠囊全部調查</text>
+<path d="M420 118 H500" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#arr2)"/>
+<rect class="loot" x="500" y="25" width="165" height="65" rx="12"/><text class="t" x="582" y="54" text-anchor="middle">右側第 1 房</text><text class="smallt" x="582" y="76" text-anchor="middle">Anti-Lock</text>
+<rect class="loot" x="500" y="150" width="165" height="65" rx="12"/><text class="t" x="582" y="178" text-anchor="middle">右側第 2 房</text><text class="smallt" x="582" y="200" text-anchor="middle">70Z＋30Z＋警告端末</text>
+<path d="M665 183 H805" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#arr2)"/><text class="t" x="878" y="178" text-anchor="end">東南門</text><text class="smallt" x="878" y="201" text-anchor="end">→ 3F</text>
+</svg></div>
+<div class="steps">
+<div class="step"><b>2F 第一個小岔路會看到黃色資料晶體。</b><div class="item">內容：Tank Energy 25。</div>你有金手指時很可能全滿而拿不起來；想把現場收集算乾淨，先受傷或消耗能源再回來拿。</div>
+<div class="step"><b>進黃晶體後面的房間，調查 4 個培養膠囊。</b><br>四個全部看完，會看到與 Wild Jango、Silver Horn、Dr. Psyche、Mach Jentra 等相關資料，並觸發傑洛通訊；傑洛會替你解開 2F 西側門。</div>
+<div class="step"><b>回到 2F 走廊，不要直接上 3F。</b><br>先搜右側兩間：第一間拿 Anti-Lock；第二間拿 70Z、30Z，裡面另有一台顯示安全異常的電腦。</div>
+<div class="step"><b>搜完後走東南門，進 2F→3F 樓梯。</b></div>
+</div></section>
+
+<section id="f3" class="card"><h2><span class="floor">3F 東區</span>：同步終端機（本章最容易卡）</h2>
+<div class="diagram"><svg viewBox="0 0 960 255">
+<defs><marker id="arr3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#82b8ff"/></marker></defs>
+<rect class="box" x="18" y="90" width="145" height="70" rx="12"/><text class="t" x="90" y="118" text-anchor="middle">3F 東區</text><text class="smallt" x="90" y="141" text-anchor="middle">Energy 25</text>
+<path d="M163 125 H230" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#arr3)"/>
+<rect class="box" x="230" y="90" width="170" height="70" rx="12"/><text class="t" x="315" y="118" text-anchor="middle">高性能膠囊房</text><text class="smallt" x="315" y="141" text-anchor="middle">Scarface／Epsilon</text>
+<path d="M400 125 H475" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#arr3)"/>
+<rect class="loot" x="475" y="28" width="155" height="65" rx="12"/><text class="t" x="552" y="56" text-anchor="middle">右側第 1 房</text><text class="smallt" x="552" y="78" text-anchor="middle">Melt Missile</text>
+<rect class="boss" x="475" y="157" width="190" height="72" rx="12"/><text class="t" x="570" y="185" text-anchor="middle">右側第 2 房</text><text class="smallt" x="570" y="207" text-anchor="middle">同步終端：第 3 聲按 ○</text>
+<path d="M665 193 H740" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#arr3)"/>
+<rect class="boss" x="740" y="157" width="190" height="72" rx="12"/><text class="t" x="835" y="185" text-anchor="middle">離房觸發強制戰</text><text class="smallt" x="835" y="207" text-anchor="middle">Preon Chaser</text>
+</svg></div>
+<div class="steps">
+<div class="step"><b>3F 和 2F 配置幾乎一樣。</b><br>先拿黃色資料晶體的 Tank Energy 25，再進後方培養房。</div>
+<div class="step"><b>調查高性能思考型機器人膠囊。</b><br>可看到 Scarface、Epsilon 等資料；看完後回走廊。</div>
+<div class="step"><b>右側第一間：拿 Melt Missile（溶解飛彈）。</b><br>這把副武器傷害不高，但帶降低 Shield 的效果，正常玩法前期有用。</div>
+<div class="step"><b>右側第二間：同步安全終端。</b><br>調查後傑洛會說兩邊要同時操作。看／聽提示節奏：<strong>第 3 次提示前一點按 <span class="key">○</span></strong>。如果你看畫面比較準，就抓「第三次閃亮」；如果聽聲音，就抓第三聲前半拍。失敗可重試，不會鎖死。</div>
+<div class="step"><b>成功後解除 3F 西區門，與傑洛通話；離開房間時強制戰。</b><br>敵人：Preon Chaser。打完固定得到本遊戲第一批 FM：<strong>X-Heart、LE+100</strong>。</div>
+<div class="step"><b>X-Heart 的功能：</b>一場戰鬥中 X 倒下時可自動復活一次（以少量 LE 回來）。你的金手指下不太會用到，但它是正常收集物，別因為數值滿就忽略。</div>
+<div class="step"><b>穿過新開的門進 3F→4F 樓梯。</b><div class="item">門附近：Tank Energy 50。</div></div>
+</div></section>
+
+<section id="f4" class="card"><h2><span class="floor">4F 東區</span>：先搜刮，再去找傑洛</h2>
+<div class="diagram"><svg viewBox="0 0 950 260">
+<defs><marker id="arr4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#82b8ff"/></marker></defs>
+<rect class="box" x="20" y="92" width="150" height="70" rx="12"/><text class="t" x="95" y="120" text-anchor="middle">4F 東區入口</text><text class="smallt" x="95" y="143" text-anchor="middle">傑洛：我在隔壁等</text>
+<path d="M170 126 H270" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#arr4)"/>
+<rect class="loot" x="270" y="30" width="200" height="72" rx="12"/><text class="t" x="370" y="58" text-anchor="middle">先走到底搜刮</text><text class="smallt" x="370" y="81" text-anchor="middle">Backup／Build Shield／Energy∞</text>
+<rect class="secret" x="270" y="158" width="200" height="72" rx="12"/><text class="t" x="370" y="186" text-anchor="middle">第二儲存點旁鎖門</text><text class="smallt" x="370" y="209" text-anchor="middle">Lagrano Key 之後再回來</text>
+<path d="M470 126 H585" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#arr4)"/>
+<rect class="box" x="585" y="92" width="140" height="70" rx="12"/><text class="t" x="655" y="120" text-anchor="middle">回中央門</text><text class="smallt" x="655" y="143" text-anchor="middle">與傑洛會合</text>
+<path d="M725 126 H800" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#arr4)"/>
+<rect class="boss" x="800" y="92" width="130" height="70" rx="12"/><text class="t" x="865" y="120" text-anchor="middle">BOSS</text><text class="smallt" x="865" y="143" text-anchor="middle">Hippopressor</text>
+</svg></div>
+<div class="steps">
+<div class="step"><b>到 4F，傑洛會通知你他在下一個房間。</b><br><strong>先不要理他。</strong>你如果直接進中央／西側門會立刻去 Boss，容易漏本層道具。</div>
+<div class="step"><b>沿走廊走到底。</b><div class="item">取得：Backup、Build Shield、Tank Energy Infinity（全能源槽補滿）。旁邊有第二個儲存點。</div></div>
+<div class="step" id="secret"><b>把儲存點旁邊那扇「現在打不開的門」記住。</b><br>這就是拉格拉諾隱藏區入口。日後從派遣拿到 <strong>Lagrano Key</strong> 後，就是回到這裡開門上 5F 找三個秘密商人。<br><a href="secret-lagrano.html">→ 點這裡看本站「拉格拉諾隱藏區／秘密商店」完整攻略</a></div>
+<div class="step"><b>搜完再回你剛才略過的門，與傑洛會合。</b><br>進門後直接 Boss 戰。</div>
+</div></section>
+
+<section class="card"><h2>BOSS：Hippopressor（河馬型壓制機）</h2>
+<div class="tablewrap"><table><tr><th>LE</th><td>5000</td><th>屬性</th><td>無明顯弱點</td></tr><tr><th>固定掉落</th><td colspan="3">Guard Buster、Fire Missile；另有 250Z、200 EXP</td></tr></table></div>
+<h3 style="margin-top:16px">攻擊與拆部位</h3>
+<ul>
+<li><b>Shark Missile Charge：</b>裝填鯊魚飛彈。</li>
+<li><b>Shark Missile：</b>飛彈本體約 500 LE，放出後會造成固定系高傷；正常玩法可優先打掉。</li>
+<li><b>S-Counter：</b>頭部會對射擊型攻擊形成防護。</li>
+<li><b>Hippo Vulcan：</b>多段射擊。</li>
+<li><b>Heavy Flier：</b>跳躍重壓，命中率偏低。</li>
+<li><b>Hippo Particle Cannon：</b>雷屬性攻擊；頭部破壞後才會進入這套攻擊邏輯。</li>
+</ul>
+<div class="notice"><b>正常玩法：</b>X 可處理 Shark Missile，Zero 打頭；WE 滿後再進 Hyper 用 Action Trigger。X 的 Charge Collider 很適合破頭。<br><b>你現在的 Lv.99 玩法：</b>可以直接秒，但至少等頭目戰結束後把戰利品與牆後 FM 撿完再走。</div>
+</section>
+
+<section id="after" class="card"><h2>Boss 後：最容易因為「打贏就走」而漏的東西</h2>
+<div class="diagram"><svg viewBox="0 0 940 220">
+<defs><marker id="arr5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#82b8ff"/></marker></defs>
+<rect class="boss" x="20" y="72" width="145" height="70" rx="12"/><text class="t" x="92" y="101" text-anchor="middle">Boss 擊破</text><text class="smallt" x="92" y="124" text-anchor="middle">先別離開</text>
+<path d="M165 107 H235" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#arr5)"/>
+<rect class="loot" x="235" y="72" width="160" height="70" rx="12"/><text class="t" x="315" y="100" text-anchor="middle">破牆位置</text><text class="smallt" x="315" y="123" text-anchor="middle">Power+1／Speed+1</text>
+<path d="M395 107 H465" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#arr5)"/>
+<rect class="loot" x="465" y="72" width="160" height="70" rx="12"/><text class="t" x="545" y="100" text-anchor="middle">4F 西區</text><text class="smallt" x="545" y="123" text-anchor="middle">Tank Parts＋80Z</text>
+<path d="M625 107 H695" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#arr5)"/>
+<rect class="loot" x="695" y="72" width="210" height="70" rx="12"/><text class="t" x="800" y="100" text-anchor="middle">5F 西區</text><text class="smallt" x="800" y="123" text-anchor="middle">Vaccine Program／Reboot</text>
+</svg></div>
+<div class="steps">
+<div class="step"><b>Boss 死後，先看牠撞破的牆／前方區域。</b><div class="item">取得：Power+1、Speed+1。</div></div>
+<div class="step"><b>從西門離開到 4F 西區。</b><br>眼前紫色資料晶體是 <strong>Tank Parts</strong>；路上另拿 80Z。北門此時無法開，走下方門。</div>
+<div class="step"><b>走 4F→5F 西側樓梯。</b></div>
+<div class="step"><b>5F 西區右側角落先拿兩樣。</b><div class="item">Vaccine Program、Reboot。</div></div>
+<div class="step"><b>最後才進中央／主門。</b><br>觸發 Shadow＋Epsilon 劇情 → Shadow 背叛 → Cadre 出現 → Zero 被擊飛 → X 破壞地板逃走。之後遊戲會詢問是否存檔，第一章正式結束。</div>
+</div></section>
+
+<section id="items" class="card"><h2>第一章 100% 現場道具核對表</h2>
+<div class="tablewrap"><table><thead><tr><th>區域</th><th>道具</th><th>備註</th></tr></thead><tbody>
+<tr><td>1F 東區</td><td>50Z、Build LE</td><td>藍色資料晶體，衝刺撞破</td></tr>
+<tr><td>2F 東區</td><td>Tank Energy 25</td><td>黃色；滿狀態時可能拿不起</td></tr>
+<tr><td>2F 側房</td><td>Anti-Lock、70Z、30Z</td><td>膠囊通訊後再搜</td></tr>
+<tr><td>3F 東區</td><td>Tank Energy 25、Melt Missile</td><td>右側第一房是飛彈</td></tr>
+<tr><td>3F 強制戰</td><td>X-Heart、LE+100</td><td>固定取得</td></tr>
+<tr><td>3F→4F</td><td>Tank Energy 50</td><td>樓梯／門附近</td></tr>
+<tr><td>4F 東區</td><td>Backup、Build Shield、Tank Energy Infinity</td><td>先走到底再回 Boss 門</td></tr>
+<tr><td>Hippopressor</td><td>Guard Buster、Fire Missile</td><td>固定掉落</td></tr>
+<tr><td>Boss 房</td><td>Power+1、Speed+1</td><td>Boss 後牆邊</td></tr>
+<tr><td>4F 西區</td><td>Tank Parts、80Z</td><td>紫色資料晶體＋路上</td></tr>
+<tr><td>5F 西區</td><td>Vaccine Program、Reboot</td><td>最終劇情前</td></tr>
+</tbody></table></div>
+<div class="ok" style="margin-top:14px"><b>如果上面全拿：</b>第一章「主線現場」就乾淨了。拉格拉諾另外還有<strong>派遣收集 21 項</strong>與<strong>秘密商店區</strong>，那是後面回來補，不算你第一次通關當下漏拿。</div>
+</section>
+
+<section class="card"><h2>來源核對</h2>
+<p class="source">本篇路線以 PS2 攻略、100% 攻略與詳細區域攻略交叉核對；方向以遊戲地圖為基準。隱藏門、派遣與秘密商店另拆成本站獨立頁，避免主線文章塞到看不懂。</p>
+<ul><li><a target="_blank" rel="noreferrer" href="https://gamefaqs.gamespot.com/ps2/919001-mega-man-x-command-mission/faqs/33063">GameFAQs｜NeoChozo 100% Guide</a></li><li><a target="_blank" rel="noreferrer" href="https://gamefaqs.gamespot.com/ps2/919001-mega-man-x-command-mission/faqs/31535">GameFAQs｜Kouli PS2 Walkthrough</a></li></ul>
+</section>
+</div></body></html>
