@@ -53,6 +53,16 @@ summary{cursor:pointer;padding:13px 15px;font-weight:700}
 hr{border:0;border-top:1px solid var(--line);margin:18px 0}
 .small{font-size:13px;color:var(--muted)}
 @media(max-width:620px){.wrap{padding:12px}.gloss{grid-template-columns:1fr}th{top:58px}}
+
+.walkmap{width:100%;max-height:760px;object-fit:contain;background:#0a0f16;border:1px solid var(--line);border-radius:12px;margin:12px 0}
+.steps{counter-reset:step;display:grid;gap:10px;margin-top:12px}
+.step{counter-increment:step;position:relative;padding:14px 14px 14px 54px;border:1px solid var(--line);border-radius:12px;background:#111923}
+.step:before{content:counter(step);position:absolute;left:14px;top:13px;width:28px;height:28px;display:grid;place-items:center;border-radius:50%;background:#28548b;color:#fff;font-weight:800}
+.step b{color:#d9eaff}
+.itemline{color:#b8c7d9;font-size:14px;margin-top:5px}
+.key{display:inline-block;padding:2px 7px;border-radius:7px;border:1px solid #53657b;background:#0b111a;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-weight:800}
+.floor{color:#8fc1ff;font-weight:800}
+.routebar{padding:10px 12px;border:1px solid #39516e;background:#101b2a;border-radius:10px;margin:10px 0;font-size:14px}
 </style>
 </head>
 <body>
@@ -102,66 +112,106 @@ hr{border:0;border-top:1px solid var(--line);margin:18px 0}
 </section>
 
 <section id="chapters" class="page">
-  <div class="warn"><b>用法：</b>每一章先看「不可漏」，再照流程跑。英文原名只放小字對照。</div>
+  <div class="warn"><b>這裡改成真正的「照著走」攻略：</b>不是告訴你這章有什麼，而是直接寫「現在在哪一層、往哪走、進哪個門、調查什麼、何時按鍵」。</div>
 
   <article class="card chapter">
-    <span class="badge blue">CH1</span><h2>潛入基坎提斯！</h2><div class="small">舞台：拉格廢墟｜原名：Infiltrate Giga City!</div>
-    <div class="route"><span class="node">艾克斯單獨行動</span><span class="arr">→</span><span class="node">與傑洛會合</span><span class="arr">→</span><span class="node">河馬型頭目</span><span class="arr">→</span><span class="node">劇情分離</span></div>
-    <ul><li>前期先熟悉衝撞破壞場景物件，很多小道具藏在可破壞物附近。</li><li>這章不用為了練等停留；你已經有滿等碼，重點改成<strong>把可拿的箱子與 FM 撿乾淨</strong>。</li><li>章末劇情後，存檔再進下一段。</li></ul>
+    <span class="badge blue">CH1 詳細版</span>
+    <h2>第一章：潛入基坎提斯／拉格拉諾廢墟</h2>
+    <p class="small">這一章先照地圖看樓層。藍色資料晶體要用衝刺撞，終端機則直接調查。</p>
+
+    <img class="walkmap" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcL6V381XTPrZ85qN1-MGKbOvFugcu9qKodjtnj1NERw2t0TDKSGgVdiVxSkKwvOuzWvhX-Mb6bSu0n1f0Fc-Xoge50SzzkEZu5nGf2WJrHPAk3ojiwWBpHQq9BcP7gW7ke1LMa9gYeK0/s0/01.png" alt="RMMH 第一章拉格拉諾廢墟地圖">
+
+    <div class="routebar"><b>整章主線：</b>起點 → 1F 西側終端機 → 第一批膠囊 → 第二批膠囊 → 與傑洛同步解除 3F 鎖 → 強制戰 → 與傑洛會合 → 河馬型頭目 → 影子背叛事件。</div>
+
+    <div class="steps">
+      <div class="step"><b>起點先進正前方的門。</b><br>到第一個岔路後，<strong>往右走</strong>。右側會連續看到兩個房間。</div>
+
+      <div class="step"><b>第一個右側房間是儲存點。</b><br>要不要存都可以；從房間出來後，繼續進右邊下一間。</div>
+
+      <div class="step"><b><span class="floor">1F 西側</span>：調查終端機解除第一道安全鎖。</b><br>調查電腦／控制台後，1F 西側門鎖解除，接著會收到<strong>傑洛的第一次通訊</strong>。他會告訴你還有其他安全系統要解除。</div>
+
+      <div class="step"><b>回走廊先把兩顆藍色資料晶體撞掉。</b><br><span class="itemline">可拿：50 Zenny、LE 強化類道具。</span><br>藍色晶體不是按調查，要用<strong>衝刺撞上去</strong>。</div>
+
+      <div class="step"><b>穿過剛解除的門，走樓梯到下一層。</b><br>岔路附近有一顆黃色資料晶體。黃色晶體是補充型資料，如果你現在 LE／能源槽是滿的，可能拿不起來。</div>
+
+      <div class="step"><b>進第一個膠囊房，把裡面的膠囊全部調查。</b><br>不要只碰一個。全部看過後會觸發<strong>傑洛第二次通訊</strong>，並開放下一段路線。</div>
+
+      <div class="step"><b>先不要急著走主路，搜膠囊房外的兩個側房。</b><br><span class="itemline">可拿：解除鎖定程式、30 Zenny、70 Zenny。</span></div>
+
+      <div class="step"><b>再走下一段樓梯，先拿路上的黃色補充資料，再進第二個膠囊房。</b><br>第二批膠囊一樣<strong>全部調查</strong>，完成後傑洛會再通訊。</div>
+
+      <div class="step"><b>離開第二個膠囊房後，去右邊的兩個房間。</b><br>其中一間有<strong>溶解飛彈</strong>；另一間就是這章最容易卡住的同步終端機。</div>
+
+      <div class="step"><b>同步終端機：看傑洛的節奏，第三次亮起時按 <span class="key">○</span>。</b><br>畫面／提示會連續閃動並有節奏聲。重點不是狂按，<strong>等到第三次提示的節奏點再按 ○</strong>，讓艾克斯和傑洛同時啟動。成功後會解除 <span class="floor">3F 西側</span> 的安全鎖。失敗就重新調查再來一次。</div>
+
+      <div class="step"><b>同步成功後準備離開房間，會強制進戰鬥。</b><br>敵人只是一般普雷翁追蹤型。打完會正式拿到 Force Metal 系統相關獎勵。<br><span class="itemline">記得把 X 心臟、LE+100 類 FM 裝上；你現在開金手指雖然不怕死，但這些仍算正常收集。</span></div>
+
+      <div class="step"><b>走剛打開的門進樓梯間。</b><br>門邊有能源槽補充資料。上樓後先<strong>不要直接進中央那扇門</strong>，先沿走廊走到底搜刮。</div>
+
+      <div class="step"><b>頭目前最後搜刮。</b><br><span class="itemline">可拿：護盾強化類道具、備份程式、全能源槽補充；附近也有儲存點。</span><br>你會看到一扇目前打不開的門，先記位置。之後取得<strong>拉格拉諾鑰匙</strong>回來，這裡會通往秘密區／秘密商店。</div>
+
+      <div class="step"><b>回到剛才略過的中央門，進去和傑洛會合。</b><br>接著直接進第一章頭目戰：<strong>河馬型大型機械</strong>。你現在 Lv.99＋高能力值基本不會翻車，重點是別漏戰後道具。</div>
+
+      <div class="step"><b>打完頭目不要急著走。</b><br>先往前拿<strong>力量+1、速度+1</strong>，離開房間後再撞紫色資料晶體拿<strong>能源槽零件</strong>，旁邊還有 80 Zenny。</div>
+
+      <div class="step"><b>再往上一層，右側角落拿疫苗程式＋重新啟動程式。</b><br>全部拿完後，再進中央門。接著就是<strong>影子帶伊普西隆出現 → 影子背叛 → 傑洛被打落 → 艾克斯逃離</strong>的劇情，第一章結束。</div>
+    </div>
+
+    <div class="ok" style="margin-top:14px"><b>第一章完成前你應該確認：</b>兩批膠囊都調查、同步終端機成功、X 心臟／LE+100 拿到、頭目前側房搜完、頭目後力量+1／速度+1／能源槽零件拿完。</div>
   </article>
 
   <article class="card chapter">
-    <span class="badge blue">CH2</span><h2>奪回中央塔</h2><div class="small">舞台：中央塔｜原名：Recapture Central Tower</div>
-    <div class="route"><span class="node">新希望基地</span><span class="arr">→</span><span class="node">中央塔</span><span class="arr">→</span><span class="node">史派達加入</span><span class="arr">→</span><span class="node">狂野強哥</span></div>
-    <ul><li>這章結束後，基地功能才真正展開：<strong>商店、傳送、派遣</strong>開始變得重要。</li><li>之後每一章破完，都回來看商店有沒有新增武器／副武器／FM。</li><li>別把「錢滿」誤認成「商店全開」：商品仍然跟劇情進度走。</li></ul>
+    <span class="badge blue">CH2</span><h2>第二章：奪回中央塔</h2>
+    <img class="walkmap" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3GXGT3r8TiMnO5UqvnuYhs4xcbHDXjHbEHdZXmUURzAeD_MNfZr0rak7TSMINYFBEfEHgERgyDjsu_4yu5CF5wtdSZ8tN6c1j9o5Mi-wVfAuO5YxcxfYlFOnAlLUuk2eRig-x269mvGQ/s0/CH2.png" alt="RMMH 第二章地圖">
+    <p>這章先以地圖走中央塔；記得和路上的居民對話、搜側道。主線完成後基地、商店街、傳送與後續收集功能才正式展開。</p>
   </article>
 
   <article class="card chapter">
-    <span class="badge blue">CH3</span><h2>紙上英雄</h2><div class="small">舞台：提亞納營地｜頭目：巨角（Silver Horn）</div>
-    <div class="route"><span class="node">前往營地</span><span class="arr">→</span><span class="node">麥西摩加入</span><span class="arr">→</span><span class="node">避開高速敵人區</span><span class="arr">→</span><span class="node">巨角戰</span></div>
-    <ul><li>這章開始多注意分岔房間，主路旁的小門常放道具。</li><li>章後可開始留意提亞納相關派遣，後面隱藏內容會用到這區的鑰匙。</li></ul>
+    <span class="badge blue">CH3</span><h2>第三章：紙上英雄</h2>
+    <img class="walkmap" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU9EMggS6kUOGxaRWrfQyOVXEqdfzKK6H2ZJjuOU-kxwS4cm3nwl2Li-y3Hkj1R8HcqC0kF6An_Zs-R8d8zXQ6gaH7UnjFrSnzNJrusoLtzljHiUqbKdNRu6RZVgLpKd_27yF-KQEZpgg/s0/CH3.png" alt="RMMH 第三章地圖">
+    <p>提亞納營地開始有巡邏機器視線機關；被照到會送回區域起點。先走凹槽躲視線，把支線房與道具拿乾淨，再推主線。</p>
   </article>
 
   <article class="card chapter">
-    <span class="badge blue">CH4</span><h2>高迪爾研究所</h2><div class="small">舞台：高迪爾研究所｜重點角色：瑪莉諾、席娜蒙</div>
-    <div class="route"><span class="node">研究所探索</span><span class="arr">→</span><span class="node">瑪莉諾／席娜蒙劇情</span><span class="arr">→</span><span class="node">賽克博士</span><span class="arr">→</span><span class="node">連續頭目</span></div>
-    <ul><li>開始有更多 FM 與角色專屬玩法，這章後建議把每個新角色的裝備頁都看一次。</li><li>看到新派遣就先派，不要堆著；100% 最常漏的就是派遣資料與素材。</li></ul>
+    <span class="badge blue">CH4</span><h2>第四章：高迪爾研究所</h2>
+    <img class="walkmap" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRpCwzAT3U82GLif8eCxxbpC8xFTgHPm8WA5SfYYbOWMW4b3FNRT36bDbZPsrjjoEGC66V03D103-pAb5LoqGABrl47ICm7IcFMqVgls4p4WLwnYMazO2GdJciA1YaH8Fn4F8qjBLYiOc/s0/CH4.png" alt="RMMH 第四章地圖">
+    <p>這章開始正式接觸席娜蒙與 FM 生成。研究所岔路多，請直接對照地圖把兩側走廊與升降機房都搜完，不要只跟著主門走。</p>
   </article>
 
   <article class="card chapter">
-    <span class="badge blue">CH5</span><h2>獵人聯手</h2><div class="small">舞台：烏魯工廠｜重點：艾克賽爾登場</div>
-    <div class="route"><span class="node">工廠</span><span class="arr">→</span><span class="node">艾克賽爾</span><span class="arr">→</span><span class="node">傑洛再登場</span><span class="arr">→</span><span class="node">紳士戰</span></div>
-    <ul><li>從 CH5 起，派遣可能挖到後期非常有用的<strong>X 反轉類 FM</strong>。</li><li>如果你要「能收就收」，這時開始把派遣當主線的一部分。</li></ul>
+    <span class="badge blue">CH5</span><h2>第五章：獵人聯手</h2>
+    <img class="walkmap" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitL5ID2P0vlB15pbKm5hR7hvaDfV9navVfQkbwxmg8QS2GEBtjeU-wLRybZWZwBslIKdYogL8rFQG2VbR1yf2DCfeJ_AZZ1vC8O0fpU7uqu__utYfszxtjKpAvoItUQavW7DPJu1lGqcg/s0/CH5.png" alt="RMMH 第五章地圖">
+    <p>烏魯工廠有浮游警戒機，碰到就強制戰。想收集就對照地圖繞過視線先拿角落道具，再繼續追蹤傑洛。</p>
   </article>
 
   <article class="card chapter">
-    <span class="badge blue">CH6</span><h2>友情的意義</h2><div class="small">舞台：吉米亞拉礦山｜頭目：安榭塔斯</div>
-    <div class="route"><span class="node">礦山探索</span><span class="arr">→</span><span class="node">傑洛／夏德劇情</span><span class="arr">→</span><span class="node">安榭塔斯</span><span class="arr">→</span><span class="node">重大劇情</span></div>
-    <ul><li>地圖偏長，善用你的「遇敵開關」：探索時關、想刷掉落時再開。</li><li>派遣仍要收，後期材料與資料會從這裡補。</li></ul>
+    <span class="badge blue">CH6</span><h2>第六章：友情的意義</h2>
+    <img class="walkmap" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrfhaN7Cpd_vfrLOlmlIZ8UU27wmxvIRCFamO9x0RzJIkr0h3eZ_HUtAPXUrACT8w7NrV_mycyI45xn6TxtwdHYFlMjATa5qoM0yCiB3cHQHe1ycLv7iWSakuWmdGb-1ghsa8Flr5MOfU/s0/CH6.png" alt="RMMH 第六章地圖">
+    <p>吉米亞拉礦山中途會取得能破壞巨石的強化零件。拿到後不要只往前，記得回頭把先前被石頭擋住的支線與道具補掉。</p>
   </article>
 
   <article class="card chapter">
-    <span class="badge blue">CH7</span><h2>攻擊基地台！</h2><div class="small">舞台：巴拿利亞沙漠｜頭目：波羅克</div>
-    <div class="route"><span class="node">流沙區</span><span class="arr">→</span><span class="node">能源管判讀</span><span class="arr">→</span><span class="node">鏡面雷射機關</span><span class="arr">→</span><span class="node">3F 頭目</span></div>
-    <ul><li><b>流沙：</b>看能源管百分比，找零頭的管線方向前進。</li><li><b>鏡子機關：</b>先轉後方路線的鏡子，再處理前面的，避免雷射誤射敵人裝置。</li><li>CH7 派遣能取得後期重要 FM；進 CH10 前最好確認有沒有拿到<strong>完全反制</strong>類的重要品。</li></ul>
+    <span class="badge blue">CH7</span><h2>第七章：攻擊基地台</h2>
+    <img class="walkmap" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS2LGO8yBr302RNtmGUorWg8cLdwgShy9w_Lf1Y9acmR_Ti-Db3wuFPROEUMQ-G7CMK6bpYrC5n2hsxoozMrmsLVudKMJ6MsbcrSYFuS_A3ATVMPgz4jn-RROzv4iHS8ryES5EzI2ueY4/s0/CH7.png" alt="RMMH 第七章地圖">
+    <p><b>流沙區：</b>調查能源管，找百分比不是整十的管線方向；也可以直接照地圖去劇情點。掉進基地後，B1 先拿閘門道具 → 1F 先解左上雷射鏡 → 2F 左上開終端 → 回 1F 解另外三房鏡子 → 再回 2F 開另外三個終端 → 3F 頭目。</p>
   </article>
 
   <article class="card chapter">
-    <span class="badge blue">CH8</span><h2>終極武器</h2><div class="small">舞台：梅爾達礦石工廠｜頭目：波羅克、費拉姆</div>
-    <div class="route"><span class="node">礦石工廠</span><span class="arr">→</span><span class="node">波羅克戰</span><span class="arr">→</span><span class="node">費拉姆戰</span><span class="arr">→</span><span class="node">超 FM 劇情</span></div>
-    <ul><li>這章後開始進入終盤，沒撿完的舊區域可以用傳送回去整理。</li><li>梅爾達相關秘密鑰匙會關係到 Zero 的隱藏型態，記得看「隱藏內容」頁。</li></ul>
+    <span class="badge blue">CH8</span><h2>第八章：終極武器</h2>
+    <img class="walkmap" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMlutzpskqKAsGYn5SRk07BGl9AfV8Kae46WCwdjlM-Djdr6_TI8pMCfnwyTkd3CvZI86dXQ0lea7kFz8B8wWs4JlDak1s7WXmC6Ihds-axlWplG8Biu662koiixTOdPQkRbjzJLtabEM/s0/CH8.png" alt="RMMH 第八章地圖">
+    <p>梅爾達礦石工廠入口外先繞右後方找派遣機械與道具；入口那扇現在鎖住的門要記住，日後取得梅爾達鑰匙就是回這裡拿傑洛隱藏型態。</p>
   </article>
 
   <article class="card chapter">
-    <span class="badge blue">CH9</span><h2>決戰時刻</h2><div class="small">舞台：墓地遺跡基地／中央塔｜重點頭目：刀疤鐵面、伊普西隆</div>
-    <div class="route"><span class="node">基地遭襲</span><span class="arr">→</span><span class="node">刀疤鐵面</span><span class="arr">→</span><span class="node">反攻</span><span class="arr">→</span><span class="node">伊普西隆</span></div>
-    <ul><li>刀疤鐵面會針對同類型攻擊做防護，正常玩法要射擊／格鬥交替。</li><li>你雖然數值很高，還是建議留意 Boss 機制，這樣重玩不會變純看動畫。</li></ul>
+    <span class="badge blue">CH9</span><h2>第九章：決戰時刻</h2>
+    <img class="walkmap" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqHMusB1STG6XTR6rhjbxzYEvcfY20LMyg9VwGsQuCmkHmE0l2sfamziKpoH6eTex3Ul3JOyRI8rnQi_t0co90Av8drEajz16C1kdcsnYIm9zGyT5_6xX9J_ctzRv33qQ_y2EiEwuneE0/s0/CH9.png" alt="RMMH 第九章地圖">
+    <p><b>警報柱：</b>碰柱觸發戰鬥，戰後顏色會由藍→黃→紅；要在任一柱恢復紅色前把該區全開並衝過門。<br><b>旋轉房拿全道具：</b>左×2 → 右×1 → 左×1 → 右×2 → 左×1 → 右×2。</p>
   </article>
 
   <article class="card chapter">
-    <span class="badge blue">CH10</span><h2>在正義的名義下</h2><div class="small">最終章｜原名：In The Name Of JUSTICE</div>
-    <div class="danger"><b>重要：</b>去停機坪後就是一連串劇情，先把該買、該收、該派遣的東西處理完。</div>
-    <ul><li>進終章前先確認 CH5～7 派遣的 X 反轉類 FM、CH7 的完全反制。</li><li>空中都市商店可補後期武器，例如傑洛三屬性「+」劍、艾克賽爾雙槍 III 等。</li><li>有興趣可刷「噴油槍」；正常掉率非常低，但對無屬性弱點的頭目很有用。</li><li>最終戰完成後<strong>一定要存 Clear Data</strong>，不然破關後封印區不會正式進入你的收集流程。</li></ul>
+    <span class="badge blue">CH10</span><h2>第十章：在正義的名義下</h2>
+    <img class="walkmap" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipRT1vntW2uHbSR26xpk4QetOmajbXvDBfUIfqkinCxobLsX6rSxL6dVBcjcnGbvLu-OfjCsNGj84GgQKNZ_gVArgDyOiEYWfyd26wgPT1_Y7CB2teFR2XtwiTq0lNXUWrUWBspH2HeyY/s0/CH10.png" alt="RMMH 第十章地圖">
+    <div class="danger"><b>前往停機坪前先整理。</b>停機坪之後會連續推進劇情；先收派遣結果、買武器、拿隱藏型態。最終區遇到連續傳送頭目房時，進去後要打完該場才能退出。</div>
   </article>
 </section>
 
