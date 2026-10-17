@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>第二章：奪回中央塔｜洛克人 X 指令任務繁中攻略</title>
+<style>
+:root{--bg:#0d1117;--panel:#151c26;--card:#1a2330;--text:#f4f7fb;--muted:#aeb9c7;--line:#344255;--blue:#75b3ff;--gold:#ffd166;--green:#78e6a3;--red:#ff8787;--cyan:#72e3ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(#0c1118,#111925);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI","Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.72}
+.wrap{max-width:1140px;margin:auto;padding:20px}.top{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}.top a{color:#cfe3ff;text-decoration:none;border:1px solid var(--line);padding:8px 11px;border-radius:10px;background:#131a23}
+.hero{padding:22px;border:1px solid var(--line);background:linear-gradient(135deg,#19365f,#171b24 55%,#231e1e);border-radius:18px}.kicker{color:var(--cyan);font-size:13px;font-weight:800}h1{font-size:clamp(28px,5vw,44px);margin:4px 0 8px}h2{margin:0 0 12px;font-size:25px}h3{margin:0 0 8px}.muted{color:var(--muted)}a{color:#8ec1ff}
+.card{background:rgba(26,35,48,.96);border:1px solid var(--line);border-radius:15px;padding:17px;margin:14px 0}.notice{border-left:4px solid var(--gold);background:#292416;padding:12px 14px;border-radius:10px}.ok{border-left:4px solid var(--green);background:#16271d;padding:12px 14px;border-radius:10px}.danger{border-left:4px solid var(--red);background:#2a1a1a;padding:12px 14px;border-radius:10px}
+.toc{display:flex;gap:8px;flex-wrap:wrap}.toc a{padding:7px 10px;border-radius:999px;border:1px solid var(--line);text-decoration:none;background:#111923}
+.steps{counter-reset:s;display:grid;gap:10px}.step{counter-increment:s;position:relative;padding:14px 14px 14px 55px;background:#111923;border:1px solid var(--line);border-radius:12px}.step:before{content:counter(s);position:absolute;left:14px;top:13px;width:29px;height:29px;border-radius:50%;background:#2c5e99;display:grid;place-items:center;font-weight:900}.step b{color:#dcecff}.item{color:#c2d0df;font-size:14px;margin-top:5px}.key{display:inline-block;padding:1px 7px;border-radius:7px;background:#0b1119;border:1px solid #54677f;font-family:ui-monospace,monospace;font-weight:900}
+.floor{color:#9bc8ff;font-weight:800}.diagram{overflow:auto;border:1px solid var(--line);border-radius:14px;background:#0b1017;padding:12px;margin:10px 0}.diagram svg{min-width:800px;width:100%;height:auto;display:block}.box{fill:#172234;stroke:#6b8fbf;stroke-width:2}.loot{fill:#2a2415;stroke:#d0a545;stroke-width:2}.boss{fill:#2d1a1a;stroke:#dc7171;stroke-width:2}.secret{fill:#16261d;stroke:#65c88b;stroke-width:2}.t{fill:#eef5ff;font-size:15px;font-family:system-ui,"Noto Sans TC",sans-serif}.smallt{fill:#c0cad8;font-size:12px;font-family:system-ui,"Noto Sans TC",sans-serif}
+table{width:100%;border-collapse:collapse}th,td{padding:10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:#131b26;color:#d7e9ff}.tablewrap{overflow:auto;border:1px solid var(--line);border-radius:12px}.badge{display:inline-block;padding:4px 9px;border-radius:999px;border:1px solid var(--line);font-size:12px}.source{font-size:13px;color:var(--muted)}ul{padding-left:22px}.route{display:flex;gap:6px;flex-wrap:wrap;align-items:center}.node{padding:6px 9px;border:1px solid var(--line);border-radius:8px;background:#111923;font-size:13px}.arr{color:#82b8ff}
+@media(max-width:640px){.wrap{padding:12px}.card{padding:14px}}
+</style></head>
+<body><div class="wrap">
+<div class="top"><a href="index.html">← 攻略站首頁</a><a href="chapter-1.html">← 第一章</a><a href="collect-central-tower.html">中央塔 100% 收集／派遣 →</a></div>
+
+<header class="hero">
+<div class="kicker">CHAPTER 2｜中央塔｜逐區域完整攻略</div>
+<h1>第二章：奪回中央塔</h1>
+<div class="muted">從 X 在地下醫療室醒來開始，一路寫到強哥（Wild Jango）擊破。包含 PS2 專屬 X8 試玩鑰匙、史派達兩次事件、艾爾 ID、救 Chief R、200 秒自爆路線、三商店、所有現場道具與章後空中都市解鎖。</div>
+</header>
+
+<div class="card"><div class="toc">
+<a href="#start">地下 999F</a><a href="#city">空中都市</a><a href="#spider">史派達戰</a><a href="#aile">艾爾</a><a href="#tower">中央塔內部</a><a href="#chief">救 Chief R</a><a href="#bomb">200 秒自爆</a><a href="#jango">強哥 Boss</a><a href="#after">章後必做</a><a href="#items">道具總表</a>
+</div></div>
+
+<section id="start" class="card">
+<h2><span class="floor">Shaft 999F</span>：醫療室醒來 → 螺旋通道</h2>
+<div class="diagram"><svg viewBox="0 0 980 250">
+<defs><marker id="a1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#82b8ff"/></marker></defs>
+<rect class="box" x="20" y="82" width="165" height="74" rx="12"/><text class="t" x="102" y="110" text-anchor="middle">醫療室／地下基地</text><text class="smallt" x="102" y="134" text-anchor="middle">商人＋維修床</text>
+<path d="M185 119 H260" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a1)"/>
+<rect class="box" x="260" y="82" width="170" height="74" rx="12"/><text class="t" x="345" y="110" text-anchor="middle">出門後左轉</text><text class="smallt" x="345" y="134" text-anchor="middle">右側被 Degraver 封住</text>
+<path d="M430 119 H500" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a1)"/>
+<rect class="loot" x="500" y="35" width="185" height="160" rx="12"/><text class="t" x="592" y="65" text-anchor="middle">螺旋通道沿路</text><text class="smallt" x="592" y="93" text-anchor="middle">Clear Vision</text><text class="smallt" x="592" y="117" text-anchor="middle">Vaccine Program</text><text class="smallt" x="592" y="141" text-anchor="middle">Build Power</text><text class="smallt" x="592" y="169" text-anchor="middle">一路向上</text>
+<path d="M685 119 H775" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a1)"/>
+<rect class="box" x="775" y="82" width="180" height="74" rx="12"/><text class="t" x="865" y="110" text-anchor="middle">Air City Gate</text><text class="smallt" x="865" y="134" text-anchor="middle">施工封路 → 右側繞道</text>
+</svg></div>
+
+<div class="steps">
+<div class="step"><b>劇情後 X 在地下醫療室醒來。</b><br>角落女性 Reploid 是第一個商人；旁邊維修床可回滿 LE、Sub Tank。你有滿錢，想收集就把現階段能買的道具各買一些。</div>
+<div class="step"><b>地下商店商品：</b><div class="item">Vaccine Program 80Z、Anti-Lock 80Z、Cure One 240Z、Reboot 500Z、Mega Fire 160Z。</div>正常攻略會建議多買 Mega Fire；你現在不缺戰力，但「商店有就收」的玩法仍可各買一份。</div>
+<div class="step"><b>從醫療室唯一出口出去，進主通道後左轉。</b><br><strong>右邊現在被 Degraver 封住</strong>，那是破關後內容的方向，不是你走錯；第二章第一次來就是走左側。</div>
+<div class="step"><b>沿螺旋走道一直往上，不要只衝門。</b><div class="item">沿路依序拿：Clear Vision、Vaccine Program、Build Power。</div>也可以順手和路上居民對話；遊戲有「與居民對話 100 次」挑戰。</div>
+<div class="step"><b>到 Air City Gate 後，前方被黃色施工 Reploid 擋住。</b><br>和他說話確認道路封閉，然後<strong>走他後方／右側的繞道</strong>進 Access Tower E-1。</div>
+</div>
+</section>
+
+<section class="card">
+<h2><span class="floor">Access Tower E-1</span>：PS2 版別漏 X8 試玩鑰匙</h2>
+<div class="diagram"><svg viewBox="0 0 960 235">
+<defs><marker id="a2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#82b8ff"/></marker></defs>
+<rect class="box" x="20" y="82" width="155" height="70" rx="12"/><text class="t" x="97" y="110" text-anchor="middle">入口</text><text class="smallt" x="97" y="133" text-anchor="middle">短直線通道</text>
+<path d="M175 117 H250" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a2)"/>
+<rect class="loot" x="250" y="34" width="180" height="155" rx="12"/><text class="t" x="340" y="64" text-anchor="middle">沿路 3 個重點</text><text class="smallt" x="340" y="92" text-anchor="middle">Gain Hyper</text><text class="smallt" x="340" y="116" text-anchor="middle">Tank Energy 100</text><text class="smallt" x="340" y="142" text-anchor="middle">左側凹槽紫資料</text><text class="smallt" x="340" y="166" text-anchor="middle">PS2：X8 Trial Key</text>
+<path d="M430 117 H535" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a2)"/>
+<rect class="box" x="535" y="82" width="180" height="70" rx="12"/><text class="t" x="625" y="110" text-anchor="middle">下一扇門</text><text class="smallt" x="625" y="133" text-anchor="middle">East Square</text>
+<path d="M715 117 H810" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a2)"/>
+<rect class="secret" x="810" y="82" width="130" height="70" rx="12"/><text class="t" x="875" y="110" text-anchor="middle">PS2 特典</text><text class="smallt" x="875" y="133" text-anchor="middle">X8 試玩解鎖</text>
+</svg></div>
+<div class="steps">
+<div class="step"><b>這條通道基本是直線，但要掃左右。</b><div class="item">取得：Gain Hyper、Tank Energy 100。</div></div>
+<div class="step"><b>看到左側小凹槽，一定撞紫色 Mystery Data。</b><br>PS2 版會拿到 <strong>X8 Trial Key</strong>，也就是《洛克人 X8》試玩版解鎖鑰匙。這個是 PS2 專屬，GameCube 沒有。</div>
+<div class="step"><b>穿過下一扇門進 Air City East Square。</b></div>
+</div>
+</section>
+
+<section id="city" class="card">
+<h2>空中都市：East Square → 3rd Street → North Square</h2>
+<div class="diagram"><svg viewBox="0 0 1000 260">
+<defs><marker id="a3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#82b8ff"/></marker></defs>
+<rect class="box" x="15" y="90" width="180" height="74" rx="12"/><text class="t" x="105" y="118" text-anchor="middle">East Square</text><text class="smallt" x="105" y="141" text-anchor="middle">通緝 X 劇情</text>
+<rect class="secret" x="250" y="28" width="185" height="70" rx="12"/><text class="t" x="342" y="56" text-anchor="middle">南側</text><text class="smallt" x="342" y="79" text-anchor="middle">Shopping Arcade 尚未開</text>
+<path d="M195 126 C235 126,230 63,250 63" stroke="#6b7280" stroke-width="3" fill="none"/>
+<path d="M195 126 H250" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a3)"/>
+<rect class="box" x="250" y="128" width="185" height="74" rx="12"/><text class="t" x="342" y="157" text-anchor="middle">北側／儲存點</text><text class="smallt" x="342" y="180" text-anchor="middle">正確主線</text>
+<path d="M435 165 H520" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a3)"/>
+<rect class="loot" x="520" y="128" width="180" height="74" rx="12"/><text class="t" x="610" y="157" text-anchor="middle">3rd Street</text><text class="smallt" x="610" y="180" text-anchor="middle">紫色公仔機</text>
+<path d="M700 165 H785" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a3)"/>
+<rect class="boss" x="785" y="128" width="190" height="74" rx="12"/><text class="t" x="880" y="157" text-anchor="middle">North Square</text><text class="smallt" x="880" y="180" text-anchor="middle">史派達第一次交手</text>
+</svg></div>
+<div class="steps">
+<div class="step"><b>進 East Square 會播「X 被通緝」劇情。</b><br>劇情後可以和廣場居民說話。<strong>通往 Shopping Arcade 的路現在鎖著</strong>，不要在這裡繞半天。</div>
+<div class="step"><b>走另一側主線通道，途中有 Save Point。</b><br>繼續前往 3rd Street。</div>
+<div class="step"><b>3rd Street 一進去，左手邊有大型紫色公仔販賣機。</b><br>這台是 Treasure Token 類公仔機；PS2 版不走 GBA Treasure Radar 那套，但機台本身仍是重要地標。</div>
+<div class="step"><b>穿過走廊到 North Square。</b><br>黑暗儲藏區沒有主線道具；再往另一扇門走會觸發賞金獵人史派達登場。</div>
+</div>
+</section>
+
+<section id="spider" class="card">
+<h2>MINI BOSS：史派達（Spider）第一次戰鬥</h2>
+<div class="tablewrap"><table>
+<tr><th>LE</th><td>1800</td><th>弱點</th><td>火屬性 150%</td></tr>
+<tr><th>掉落／偷盜</th><td colspan="3">無；這場是劇情小 Boss，打幾回合後結束。</td></tr>
+</table></div>
+<ul>
+<li><b>Counter Card：</b>先架射擊防護；正常玩法用 X Fire 的 Charge Collider（格鬥型）拆。</li>
+<li><b>Four Penalty：</b>四連擊並降低能力。</li>
+<li><b>Tri-Card：</b>火／水／雷隨機屬性三連。</li>
+<li>正常玩法：防禦到 WE 100% → X Fire → Charge Collider。你現在 Lv.99 幾乎直接過。</li>
+</ul>
+<div class="ok"><b>這戰不需要打到死亡：</b>史派達會在幾回合後撤退，屬於劇情過場。</div>
+</section>
+
+<section class="card">
+<h2>史派達戰後：密碼機＋Power Charge</h2>
+<div class="steps">
+<div class="step"><b>史派達離開後，進前方門到 Access Tunnel E-1 另一段。</b></div>
+<div class="step"><b>左側會看到黃色 Password Machine。</b><br>這就是「密碼公仔」機台。本站另外有日版公仔密碼頁；不要用美版密碼混著輸。</div>
+<div class="step"><b>同區把 3 個現場道具拿齊。</b><div class="item">Power Charge、Tank Energy 50、100Z。</div></div>
+<div class="step"><b>Power Charge 很重要。</b><br>消耗 30 WE，讓下一次攻擊增傷；連續充兩次可疊更高。你現在數值爆表不缺傷害，但它是正式收集。</div>
+</div>
+</section>
+
+<section id="aile" class="card">
+<h2>繞過路障 → 艾爾（Aile）事件</h2>
+<div class="diagram"><svg viewBox="0 0 990 240">
+<defs><marker id="a4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#82b8ff"/></marker></defs>
+<rect class="box" x="20" y="82" width="180" height="72" rx="12"/><text class="t" x="110" y="110" text-anchor="middle">Access Tunnel 出口</text><text class="smallt" x="110" y="133" text-anchor="middle">回到路障另一側</text>
+<path d="M200 118 H285" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a4)"/>
+<rect class="box" x="285" y="82" width="185" height="72" rx="12"/><text class="t" x="377" y="110" text-anchor="middle">右轉上坡</text><text class="smallt" x="377" y="133" text-anchor="middle">黑暗碎石 U 型通道</text>
+<path d="M470 118 H560" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a4)"/>
+<rect class="secret" x="560" y="82" width="190" height="72" rx="12"/><text class="t" x="655" y="110" text-anchor="middle">艾爾事件</text><text class="smallt" x="655" y="133" text-anchor="middle">取得 Aile's ID</text>
+<path d="M750 118 H825" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a4)"/>
+<rect class="boss" x="825" y="82" width="145" height="72" rx="12"/><text class="t" x="897" y="110" text-anchor="middle">艾爾自爆</text><text class="smallt" x="897" y="133" text-anchor="middle">主線被迫前進</text>
+</svg></div>
+<div class="steps">
+<div class="step"><b>從通道出口回到 Air City Gate 的路障另一側。</b><br>右轉，沿上坡走；會進入較暗、地上有碎石的區域，路線會做一個明顯 U 型折返。</div>
+<div class="step"><b>走到事件點，遇到艾爾。</b><br>他是 Chief R 的助手／反抗軍實際領導者之一。談話後把 <strong>Aile's ID</strong> 交給 X，讓你可以進中央塔內部區域。</div>
+<div class="step"><b>Preon Chaser 追來時，艾爾把 X 推進門後自爆。</b><br>這裡之後不能原路回他身邊，主線會強制進 Tower Base Access Tunnel。</div>
+</div>
+</section>
+
+<section id="tower" class="card">
+<h2>中央塔內部：Access Tunnel → 維修區 → Base Security</h2>
+<div class="diagram"><svg viewBox="0 0 1060 270">
+<defs><marker id="a5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#82b8ff"/></marker></defs>
+<rect class="loot" x="15" y="90" width="190" height="90" rx="12"/><text class="t" x="110" y="118" text-anchor="middle">Tower Base Access</text><text class="smallt" x="110" y="143" text-anchor="middle">Gain Hyper／Mega Fire</text><text class="smallt" x="110" y="164" text-anchor="middle">100Z／Energy ∞</text>
+<path d="M205 135 H280" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a5)"/>
+<rect class="loot" x="280" y="90" width="180" height="90" rx="12"/><text class="t" x="370" y="118" text-anchor="middle">Maintenance B</text><text class="smallt" x="370" y="143" text-anchor="middle">Build Armor</text><text class="smallt" x="370" y="164" text-anchor="middle">Build Speed</text>
+<path d="M460 135 H535" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a5)"/>
+<rect class="box" x="535" y="90" width="180" height="90" rx="12"/><text class="t" x="625" y="118" text-anchor="middle">Maintenance A</text><text class="smallt" x="625" y="143" text-anchor="middle">Save Point</text><text class="smallt" x="625" y="164" text-anchor="middle">西房 100Z</text>
+<path d="M715 135 H790" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a5)"/>
+<rect class="boss" x="790" y="45" width="245" height="180" rx="12"/><text class="t" x="912" y="76" text-anchor="middle">Base Security Station</text><text class="smallt" x="912" y="105" text-anchor="middle">先救 2 Preon Chaser</text><text class="smallt" x="912" y="129" text-anchor="middle">取得 Security Card</text><text class="smallt" x="912" y="153" text-anchor="middle">三商店＋免費補給</text><text class="smallt" x="912" y="177" text-anchor="middle">側房 Ultra Fire＋200Z</text><text class="smallt" x="912" y="201" text-anchor="middle">再往 Data Backup Hall A</text>
+</svg></div>
+<div class="steps">
+<div class="step"><b>Tower Base Access Tunnel 第一段。</b><div class="item">Gain Hyper、Mega Fire。</div></div>
+<div class="step"><b>第二段通道。</b><div class="item">100Z、Tank Energy Infinity（全能源槽補滿）。</div></div>
+<div class="step"><b>進 Equipment Maintenance B。</b><br>兩組儲物櫃後面各藏一個：<strong>Build Armor、Build Speed</strong>。這兩個很容易因為只看門而漏。</div>
+<div class="step"><b>走標有上箭頭的門，沿螺旋往上到 Equipment Maintenance A。</b><br>左邊有 Save Point；西側房拿 100Z。主線走東側。</div>
+<div class="step"><b>東側通道遇反抗軍士兵。</b><br>和他說話，他會拜託你救下一房的同伴。</div>
+<div class="step"><b>進 Base Security Station，先打兩隻 Preon Chaser。</b><br>打完救出人質，其中一人給你 <strong>Security Card</strong>。</div>
+<div class="step"><b>這房間是第二章核心補給站。</b><br>三位女商人販售道具、主／副武器、FM；角落坐著的 Reploid 可免費回滿 LE、Sub Tank、Hyper。</div>
+<div class="step"><b>別只買東西，兩側房也要搜。</b><div class="item">西側：200Z。北側：Ultra Fire。</div></div>
+</div>
+
+<h3 style="margin-top:16px">第二章三商店</h3>
+<div class="tablewrap"><table><thead><tr><th>分類</th><th>商品</th></tr></thead><tbody>
+<tr><td>道具</td><td>Vaccine Program 80Z、Anti-Lock 80Z、Cure One 240Z、Reboot 500Z、Mega Fire 160Z</td></tr>
+<tr><td>主武器</td><td>Fire Buster 500Z、Guard Buster 500Z</td></tr>
+<tr><td>副武器</td><td>Fire Missile 1500Z、Micro Missile 300Z、Tomahawk 400Z</td></tr>
+<tr><td>FM</td><td>Thunder Guard 500Z、Power+1 120Z、Armor+1 80Z、Shield+1 80Z、Speed+1 120Z、Virus Protection 80Z、Bind Protection 60Z、Decoy 1000Z、Analyzer 1000Z</td></tr>
+</tbody></table></div>
+<div class="notice" style="margin-top:12px"><b>正常攻略：</b>Fire Buster 與 Thunder Guard 對章末強哥很有用。<br><b>你的玩法：</b>錢滿了，建議商店當下直接各買一份，避免之後回頭確認「我到底有沒有收過」。</div>
+</section>
+
+<section id="chief" class="card">
+<h2>Data Backup 區：Eagle Eye → 史派達反水 → 救 Chief R</h2>
+<div class="diagram"><svg viewBox="0 0 1060 285">
+<defs><marker id="a6" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#82b8ff"/></marker></defs>
+<rect class="box" x="15" y="98" width="185" height="80" rx="12"/><text class="t" x="107" y="127" text-anchor="middle">Hall A</text><text class="smallt" x="107" y="151" text-anchor="middle">中央：Tank Energy 25</text>
+<path d="M200 138 H275" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a6)"/>
+<rect class="loot" x="275" y="35" width="185" height="75" rx="12"/><text class="t" x="367" y="64" text-anchor="middle">西側分岔再左</text><text class="smallt" x="367" y="88" text-anchor="middle">Eagle Eye</text>
+<rect class="secret" x="275" y="165" width="185" height="75" rx="12"/><text class="t" x="367" y="194" text-anchor="middle">Hall A 右路</text><text class="smallt" x="367" y="218" text-anchor="middle">現在鎖住；救 R 後逃生用</text>
+<path d="M460 72 H535" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a6)"/>
+<rect class="boss" x="535" y="35" width="200" height="75" rx="12"/><text class="t" x="635" y="64" text-anchor="middle">Hall B</text><text class="smallt" x="635" y="88" text-anchor="middle">史派達擊倒 X／看見 ID</text>
+<path d="M735 72 H810" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a6)"/>
+<rect class="boss" x="810" y="35" width="225" height="75" rx="12"/><text class="t" x="922" y="64" text-anchor="middle">Data Backup Room</text><text class="smallt" x="922" y="88" text-anchor="middle">Preon Spark×2 → 救 Chief R</text>
+</svg></div>
+<div class="steps">
+<div class="step"><b>從補給站往上，進 Data Backup Room Hall A。</b><div class="item">房間中央：Tank Energy 25。</div></div>
+<div class="step"><b>先走左（西）側。</b><br>進下一小通道後再走左，拿 FM <strong>Eagle Eye</strong>（命中強化）。然後回岔路，改走右側前往 Hall B。</div>
+<div class="step"><b>Hall A 一開始看到的右側主路此時鎖住。</b><br>先記住；等等 Chief R 啟動自爆逃生流程時，它會變成你的捷徑。現在不要在這裡找開關。</div>
+<div class="step"><b>Hall B 觸發史派達事件。</b><br>史派達先把 X 擊倒，但看到 X 掉出的 Aile's ID；X 說明艾爾犧牲後，史派達改變立場，決定不替強哥做事。</div>
+<div class="step"><b>史派達留下來擋兵，X 往前救 Chief R。</b><br>下一房固定戰：<strong>Preon Spark ×2</strong>。打完救出 Chief R。</div>
+<div class="step"><b>Chief R 得救後，強哥啟動中央塔自爆。</b><br>畫面出現約 <strong>200 秒</strong>計時。接下來不是原路慢慢散步，而是要照 Chief R 開的捷徑衝到 Command Room。</div>
+</div>
+</section>
+
+<section id="bomb" class="card">
+<h2>200 秒自爆：正確逃生路線</h2>
+<div class="danger"><b>不用緊張：</b>固定戰鬥時倒數會停止；真正會吃時間的是你走錯門、原地繞圈。你的 Lv.99 也能把三場固定戰瞬間處理。</div>
+<div class="diagram"><svg viewBox="0 0 1120 315">
+<defs><marker id="a7" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#82b8ff"/></marker></defs>
+<rect class="box" x="15" y="105" width="180" height="80" rx="12"/><text class="t" x="105" y="134" text-anchor="middle">Chief R 房</text><text class="smallt" x="105" y="159" text-anchor="middle">轉身原路回 Hall B</text>
+<path d="M195 145 H270" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a7)"/>
+<rect class="boss" x="270" y="105" width="185" height="80" rx="12"/><text class="t" x="362" y="134" text-anchor="middle">固定戰 1</text><text class="smallt" x="362" y="159" text-anchor="middle">Preon Bitmaster ×2</text>
+<path d="M455 145 H530" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a7)"/>
+<rect class="boss" x="530" y="105" width="185" height="80" rx="12"/><text class="t" x="622" y="134" text-anchor="middle">Hall A 走「原本鎖門」</text><text class="smallt" x="622" y="159" text-anchor="middle">固定戰 2：Chaser ×2</text>
+<path d="M715 145 H790" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a7)"/>
+<rect class="box" x="790" y="40" width="200" height="80" rx="12"/><text class="t" x="890" y="69" text-anchor="middle">Staff Room</text><text class="smallt" x="890" y="94" text-anchor="middle">計時中先別撿東西</text>
+<path d="M890 120 V185" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a7)"/>
+<rect class="box" x="790" y="185" width="200" height="80" rx="12"/><text class="t" x="890" y="214" text-anchor="middle">Base Entrance → Gateway</text><text class="smallt" x="890" y="239" text-anchor="middle">左門 → 正前門</text>
+<path d="M990 225 H1070" stroke="#82b8ff" stroke-width="3" fill="none" marker-end="url(#a7)"/>
+<text class="t" x="1100" y="205" text-anchor="end">Command Room</text><text class="smallt" x="1100" y="230" text-anchor="end">固定戰 3 → 紅按鈕</text>
+</svg></div>
+<div class="steps">
+<div class="step"><b>救完 Chief R 後立刻原路回 Hall B。</b><br>第一場固定戰：Preon Bitmaster ×2。</div>
+<div class="step"><b>回 Hall A 後，改走剛才「鎖著」的右側門。</b><br>Chief R 會替你開。第二場固定戰：Preon Chaser ×2。</div>
+<div class="step"><b>到 Command Center Staff Room，計時期間先什麼都不要撿。</b><br>直接走<strong>東門</strong>進長走廊。</div>
+<div class="step"><b>到 Base Entrance 後，立刻走左手門。</b></div>
+<div class="step"><b>進 Base Gateway，再走正前方門。</b></div>
+<div class="step"><b>到 Command Room，第三場固定戰。</b><br>Preon Chaser ×2＋Preon Spark ×1。</div>
+<div class="step"><b>打完後調查房間中央的大紅按鈕。</b><br>自爆解除。這時才開始回頭撿剛才故意略過的東西。</div>
+</div>
+</section>
+
+<section class="card">
+<h2>解除自爆後：一定要回頭收，不要直接衝 Boss</h2>
+<div class="steps">
+<div class="step"><b>Base Entrance 中央拿 Tank Energy 25。</b><br>東門是之後前往停機坪／強哥；先別走。</div>
+<div class="step"><b>回 Command Center Staff Room。</b><br>開北門，固定戰 Preon Bitmaster ×2；打完拿 <strong>Tank Part</strong>。</div>
+<div class="step"><b>一路回到剛才救 Chief R 的 Data Backup Room。</b><br>穿過 Chief R 所在位置到後方，拿 <strong>100Z</strong>。</div>
+<div class="step"><b>建議再回三商店最後補貨／補收集。</b><br>旁邊免費補給 NPC 可把 LE、Sub Tank、Hyper 全回滿。正常攻略此時會準備 Fire Buster、Thunder Guard；你的數值則不必擔心戰力。</div>
+<div class="step"><b>整理完再回 Base Entrance，走東門。</b><br>途經 Large Heliport Access Tunnel，先拿 <strong>Backup、Tank Energy 100</strong>，再進大門。</div>
+</div>
+</section>
+
+<section id="jango" class="card">
+<h2>BOSS：強哥（Wild Jango）</h2>
+<div class="tablewrap"><table>
+<tr><th>LE</th><td>9000</td><th>屬性</th><td>雷；吸收雷傷、火傷 150%</td></tr>
+<tr><th>固定掉落</th><td>Sub Tank、Thunder Buster</td><th>可偷</th><td>Thunder Guard、Protect+1</td></tr>
+<tr><th>報酬</th><td colspan="3">500Z、1000 EXP</td></tr>
+</table></div>
+<ul>
+<li><b>Shock Nail：</b>雷屬性，可能 Virus。</li>
+<li><b>Lightning Rod：</b>雷屬性並降低／吸收速度。</li>
+<li><b>Rolling Assault：</b>高倍率單體衝擊。</li>
+<li><b>Ultra Thunder：</b>全體雷傷。</li>
+</ul>
+<div class="notice"><b>正常玩法：</b>Fire Buster 打弱點；X WE 滿後 X Fire → Charge Collider。史派達本戰正式並肩作戰，他的 Hyper 期間可無敵。<br><b>你的玩法：</b>不會輸，但如果你想「看完整 Boss 機制」，先用普通武器打幾回合再收掉。</div>
+<div class="ok"><b>打完必得：</b>第二個 Sub Tank＋Thunder Buster。史派達正式加入隊伍，第二章結束。</div>
+</section>
+
+<section id="after" class="card">
+<h2>第二章結束後，先別急著找 Chief R 開 CH3</h2>
+<div class="route">
+<span class="node">Air Bus 恢復</span><span class="arr">→</span><span class="node">South Square</span><span class="arr">→</span><span class="node">走廊 Figure Token ×3</span><span class="arr">→</span><span class="node">白色公仔機</span><span class="arr">→</span><span class="node">Shopping Arcade</span><span class="arr">→</span><span class="node">傳送站解鎖</span>
+</div>
+<div class="steps">
+<div class="step"><b>中央塔大部分區域現在正式開放。</b><br>破關後用 Air Bus 到 South Square。</div>
+<div class="step"><b>往城市主路走，第一段走廊旁有 3 個 Figure Token。</b><br>旁邊是第一台白色一般公仔機，2 枚代幣抽 1 個公仔。</div>
+<div class="step"><b>繼續走到 Air City Shopping Arcade。</b><br>這裡有完整道具店、武器店、綜合商人、FM 店，以及<strong>傳送站</strong>；從現在開始可以回已通關區域補收集。</div>
+<div class="step"><b>中央塔還有「破關後特別封印區」，現在仍不能進。</b><br>地下 999F 一開始被 Degraver 擋住的方向，就是日後的一部分；要全破主線後再處理。</div>
+<div class="step"><b>如果你要 100%，現在就開始跑中央塔派遣。</b><br>中央塔派遣共有 <strong>33 項</strong>，不要只看主線影片。<br><a href="collect-central-tower.html">→ 點這裡看「中央塔 33 項派遣／章後收集」完整表</a></div>
+</div>
+</section>
+
+<section id="items" class="card">
+<h2>第二章現場道具 100% 核對</h2>
+<div class="tablewrap"><table><thead><tr><th>區域</th><th>道具</th><th>容易漏的原因</th></tr></thead><tbody>
+<tr><td>Shaft 999F 螺旋路</td><td>Clear Vision、Vaccine Program、Build Power</td><td>一路跑門容易漏牆邊資料</td></tr>
+<tr><td>Access Tower E-1</td><td>Gain Hyper、Tank Energy 100、X8 Trial Key（PS2）</td><td>X8 Key 在左側凹槽紫資料</td></tr>
+<tr><td>史派達戰後通道</td><td>Power Charge、Tank Energy 50、100Z</td><td>會被密碼機吸引注意</td></tr>
+<tr><td>Tower Base Access</td><td>Gain Hyper、Mega Fire、100Z、Tank Energy Infinity</td><td>分散在兩段隧道</td></tr>
+<tr><td>Maintenance B</td><td>Build Armor、Build Speed</td><td>藏在儲物櫃後面</td></tr>
+<tr><td>Maintenance A</td><td>100Z</td><td>西側房；主線走東側</td></tr>
+<tr><td>Base Security Station</td><td>Security Card、Ultra Fire、200Z</td><td>兩側房＋救人獎勵</td></tr>
+<tr><td>Data Backup Hall A</td><td>Tank Energy 25、Eagle Eye</td><td>Eagle Eye 在西側支線再左</td></tr>
+<tr><td>自爆路線</td><td>Tank Energy 25</td><td>解除自爆後回收較安全</td></tr>
+<tr><td>Staff Room</td><td>Tank Part</td><td>解除自爆後北門戰鬥</td></tr>
+<tr><td>Chief R 房後方</td><td>100Z</td><td>必須回到救人處往後拿</td></tr>
+<tr><td>Heliport Access</td><td>Backup、Tank Energy 100</td><td>Boss 門前</td></tr>
+<tr><td>Wild Jango</td><td>Sub Tank、Thunder Buster</td><td>固定 Boss 掉落</td></tr>
+</tbody></table></div>
+<div class="ok" style="margin-top:14px"><b>第二章主線現場全拿＋章後 3 Figure Token：</b>這樣才算「中央塔第一次攻略乾淨」。派遣 33 項另外算長期收集。</div>
+</section>
+
+<section class="card"><h2>來源核對</h2>
+<p class="source">本篇把 NeoChozo 100% Guide 與 crazy4rpg 詳細路線互相對照：Shaft 999F、Access Tower E-1、PS2 X8 Trial Key、Spider、Aile ID、三商店、Eagle Eye、自爆三場固定戰、解除自爆後回收、Wild Jango、章後 Shopping Arcade 均有交叉資料。</p>
+<ul>
+<li><a target="_blank" rel="noreferrer" href="https://gamefaqs.gamespot.com/ps2/919001-mega-man-x-command-mission/faqs/33063">NeoChozo｜100% Completion / Walkthrough</a></li>
+<li><a target="_blank" rel="noreferrer" href="https://gamefaqs.gamespot.com/gamecube/919002-mega-man-x-command-mission/faqs/64879">crazy4rpg｜Detailed Walkthrough</a></li>
+<li><a target="_blank" rel="noreferrer" href="https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-data-5.html">RMMH｜收集要素</a></li>
+</ul>
+</section>
+</div></body></html>
