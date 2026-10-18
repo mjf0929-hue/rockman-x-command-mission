@@ -4,7 +4,8 @@
     "https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-data-2.html",
     "https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-data-4.html",
     "https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-data-5.html",
-    "https://ja.wikipedia.org/wiki/ロックマンX_コマンドミッション"
+    "https://ja.wikipedia.org/wiki/ロックマンX_コマンドミッション",
+    "https://megaman.fandom.com/wiki/Preon"
   ],
   "terms": [
     {
@@ -73,6 +74,11 @@
       "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
     },
     {
+      "en": "Preon Bitmaster",
+      "jp": "プレオンビットマスタ",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
       "en": "Eternal Forest",
       "jp": "無限の森",
       "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
@@ -121,6 +127,16 @@
       "en": "Yellow Pickaxe",
       "jp": "黄色つるはし",
       "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Preon Shielder",
+      "jp": "プレオンシールダー",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "プレオン Bitmaster",
+      "jp": "プレオンビットマスタ",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
     },
     {
       "en": "Absolute Zero",
@@ -216,6 +232,21 @@
       "en": "White Pickaxe",
       "jp": "白色つるはし",
       "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Preon Soldier",
+      "jp": "プレオンソルジャー",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "Preon Chasers",
+      "jp": "プレオンチェイサー",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "プレオン Shielder",
+      "jp": "プレオンシールダー",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
     },
     {
       "en": "Auto Bullets",
@@ -331,6 +362,41 @@
       "en": "X8 Trial Key",
       "jp": "X8トライアルキー",
       "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Preon Chaser",
+      "jp": "プレオンチェイサー",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "Preon Gunner",
+      "jp": "プレオンガンナー",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "Preon Hybrid",
+      "jp": "プレオンヘンナー",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "Preon Doctor",
+      "jp": "プレオンドクター",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "Preon Sparks",
+      "jp": "プレオンスパーク",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "Preon Nurses",
+      "jp": "プレオンナース",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "プレオン Soldier",
+      "jp": "プレオンソルジャー",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
     },
     {
       "en": "Ancient Gun",
@@ -483,6 +549,41 @@
       "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
     },
     {
+      "en": "Preon Spark",
+      "jp": "プレオンスパーク",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "Preon Elite",
+      "jp": "プレオンエリート",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "Preon Nurse",
+      "jp": "プレオンナース",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "プレオン Chaser",
+      "jp": "プレオンチェイサー",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "プレオン Gunner",
+      "jp": "プレオンガンナー",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "プレオン Hybrid",
+      "jp": "プレオンヘンナー",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "プレオン Doctor",
+      "jp": "プレオンドクター",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
       "en": "Belladonna",
       "jp": "ベラドンナー",
       "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
@@ -588,6 +689,26 @@
       "src": "本站已收錄之日文對照表"
     },
     {
+      "en": "Preon Tank",
+      "jp": "プレオンタンク",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "プレオン Spark",
+      "jp": "プレオンスパーク",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "プレオン Elite",
+      "jp": "プレオンエリート",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "プレオン Nurse",
+      "jp": "プレオンナース",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
       "en": "Aile's ID",
       "jp": "エールのID",
       "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
@@ -661,6 +782,21 @@
       "en": "Tank Part",
       "jp": "タンクパーツ",
       "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Preon Pod",
+      "jp": "プレオンポッド",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "Preon Doc",
+      "jp": "プレオンドクター",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "プレオン Tank",
+      "jp": "プレオンタンク",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
     },
     {
       "en": "Bat Bone",
@@ -771,6 +907,16 @@
       "en": "Z-Rapier",
       "jp": "Zレイピア",
       "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "プレオン Pod",
+      "jp": "プレオンポッド",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "プレオン Doc",
+      "jp": "プレオンドクター",
+      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
     },
     {
       "en": "Caution",
