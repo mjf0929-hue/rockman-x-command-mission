@@ -45,6 +45,11 @@
       "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
     },
     {
+      "en": "Berserk Protection",
+      "jp": "暴走チェック",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
       "en": "Mettaur Commander",
       "jp": "メットールコマンダー",
       "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
@@ -53,6 +58,26 @@
       "en": "Preon Hell Gunner",
       "jp": "プレオンヘルガンナー",
       "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Freeze Protection",
+      "jp": "凍結チェック",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Virus Protection",
+      "jp": "ウイルスチェック",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Blind Protection",
+      "jp": "ブラインドチェック",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Fire Buster MKII",
+      "jp": "ファイアバスターMK2",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
     },
     {
       "en": "Infinite Resist",
@@ -103,6 +128,16 @@
       "en": "Preon S Epsilon",
       "jp": "プレオンＳイプシロン",
       "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Reverse Thunder",
+      "jp": "リバースサンダー",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Bind Protection",
+      "jp": "バインドチェック",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
     },
     {
       "en": "Eternal Forest",
@@ -188,6 +223,21 @@
       "en": "プレオン S Epsilon",
       "jp": "プレオンＳイプシロン",
       "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Thunder Resist",
+      "jp": "レジストサンダー",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Thunder Buster",
+      "jp": "サンダーバスター",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "X-Buster MKIII",
+      "jp": "エックスバスターMK3",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
     },
     {
       "en": "Absolute Zero",
@@ -323,6 +373,21 @@
       "en": "Depth Dragoon",
       "jp": "デプスドラグーン",
       "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Thunder Guard",
+      "jp": "サンダーガード",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Reverse Water",
+      "jp": "リバースウォーター",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Berserk Block",
+      "jp": "暴走ブロック",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
     },
     {
       "en": "Auto Bullets",
@@ -510,6 +575,31 @@
       "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
+      "en": "Water Resist",
+      "jp": "レジストウォーター",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Reverse Fire",
+      "jp": "リバースファイア",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Freeze Block",
+      "jp": "凍結ブロック",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Power Charge",
+      "jp": "パワーチャージ",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Guard Buster",
+      "jp": "ガードバスター",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
       "en": "Ancient Gun",
       "jp": "エンシェントガン",
       "src": "本站已收錄之日文對照表"
@@ -637,7 +727,7 @@
     {
       "en": "Silver Horn",
       "jp": "シルバーホーンド",
-      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
     },
     {
       "en": "Sinedropper",
@@ -718,6 +808,26 @@
       "en": "Far East HQ",
       "jp": "極東司令部",
       "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Water Guard",
+      "jp": "ウォーターガード",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Fire Resist",
+      "jp": "レジストファイア",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Virus Block",
+      "jp": "ウイルスブロック",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Fire Buster",
+      "jp": "ファイアバスター",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
     },
     {
       "en": "Belladonna",
@@ -848,6 +958,21 @@
       "en": "Zweihammer",
       "jp": "ツヴァイハンマー",
       "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Fire Guard",
+      "jp": "ファイアガード",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Bind Block",
+      "jp": "バインドブロック",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
+    },
+    {
+      "en": "Ice Buster",
+      "jp": "アイスバスター",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
     },
     {
       "en": "Aile's ID",
@@ -1198,6 +1323,11 @@
       "en": "Bigbit",
       "jp": "ビビット",
       "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Duboar",
+      "jp": "デュボア",
+      "src": "RMMH FM日中英、官方角色／武器資料與日本原文術語"
     },
     {
       "en": "Bluff",
