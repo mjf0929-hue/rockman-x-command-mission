@@ -1,0 +1,946 @@
+{
+  "description": "PS2日版：僅在遊戲術語文字節點中以日文優先改寫。若資料來源有衝突需人工複核。",
+  "sources": [
+    "https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-data-2.html",
+    "https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-data-4.html",
+    "https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-data-5.html",
+    "https://ja.wikipedia.org/wiki/ロックマンX_コマンドミッション"
+  ],
+  "terms": [
+    {
+      "en": "Deployment destination",
+      "jp": "派遣先",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Tianna Undersea Prison",
+      "jp": "ティアナ海底収容所",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Dispatch Destination",
+      "jp": "派遣先",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Tank Energy Infinity",
+      "jp": "タンクエナジー∞",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Ball & Chain Hammer",
+      "jp": "ハンマー鉄球",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Special Sealed Area",
+      "jp": "特別封印エリア",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Electric Component",
+      "jp": "エレキパーツ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Infinite Resist",
+      "jp": "キープアビリティ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Melda Ore Plant",
+      "jp": "メルダ鉱石プラント",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Neutralizer -30",
+      "jp": "中和メタル－30%",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Tank Energy 100",
+      "jp": "タンクエナジー100",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Vaccine Program",
+      "jp": "ワクチンプログラム",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Vanallia Desert",
+      "jp": "バナリア大砂漠",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Eternal Forest",
+      "jp": "無限の森",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Jack of Spades",
+      "jp": "スペードJ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "King of Spades",
+      "jp": "スペードK",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Minus Metal 20",
+      "jp": "マイナスメタル20",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Tank Energy 25",
+      "jp": "タンクエナジー25",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Tank Energy 50",
+      "jp": "タンクエナジー50",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Ultimate Armor",
+      "jp": "アルティメットアーマー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Ultra Blizzard",
+      "jp": "ドメガブリザード",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Unlock Limiter",
+      "jp": "リミッター解除",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Yellow Pickaxe",
+      "jp": "黄色つるはし",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Absolute Zero",
+      "jp": "アブソリュートゼロ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Assassin Mind",
+      "jp": "アサシンマインド",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Booster Parts",
+      "jp": "ブースターパーツ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Central Tower",
+      "jp": "セントラルタワー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Duckbill Mole",
+      "jp": "ダックビルモール",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Figure Tokens",
+      "jp": "フィギュアコイン",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Gimialla Mine",
+      "jp": "ギミアラ採掘場",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Green Pickaxe",
+      "jp": "緑色つるはし",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Jack of Clubs",
+      "jp": "クラブJ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Killer Mantis",
+      "jp": "キラーマンティス",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "King of Clubs",
+      "jp": "クラブK",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Lagrano Ruins",
+      "jp": "ラグラノ廃墟",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Mega Blizzard",
+      "jp": "メガブリザード",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Mega Tortoise",
+      "jp": "メガトータス",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Security Card",
+      "jp": "セキュリティカード",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Steel Massimo",
+      "jp": "マッシモ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Ulfat Factory",
+      "jp": "ウルファト生産工場",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Ultra Thunder",
+      "jp": "ドメガサンダー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "White Pickaxe",
+      "jp": "白色つるはし",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Auto Bullets",
+      "jp": "オートバレット",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Beam Chakram",
+      "jp": "ビームチャクラム",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Blue Pickaxe",
+      "jp": "青色つるはし",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Boost Shield",
+      "jp": "シールドアップ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Build Shield",
+      "jp": "ビルドシールド",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Clear Vision",
+      "jp": "クリアビジョン",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Cutting Edge",
+      "jp": "ワントップ",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Cyber Liquid",
+      "jp": "サイバーリキッド",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Figure Token",
+      "jp": "フィギュアコイン",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Gimialla Key",
+      "jp": "ギミアラキー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Hippopressor",
+      "jp": "ヒポポプレッサー",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Item Capture",
+      "jp": "アイテムキャプチャー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Kitty Gloves",
+      "jp": "にゃんこグローブ",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Mad Nautilus",
+      "jp": "マッドノーチラス",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Massimo Plus",
+      "jp": "ザ・マッシモ",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Mechaniloids",
+      "jp": "メカニロイド",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Mega Thunder",
+      "jp": "メガサンダー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Mini Battery",
+      "jp": "プチバッテリー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Mini-Battery",
+      "jp": "プチバッテリー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Radar Killer",
+      "jp": "レイダーキラー",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Turbo Buster",
+      "jp": "ターボバスター",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Twin Missile",
+      "jp": "ツインミサイル",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "X8 Trial Key",
+      "jp": "X8トライアルキー",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Ancient Gun",
+      "jp": "エンシェントガン",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Boost Armor",
+      "jp": "アーマーアップ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Boost Power",
+      "jp": "パワーアップ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Boost Speed",
+      "jp": "スピードアップ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Build Armor",
+      "jp": "ビルドアーマー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Build Hyper",
+      "jp": "ビルドHYPER",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Build Power",
+      "jp": "ビルドパワー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Build Speed",
+      "jp": "ビルドスピード",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Central Key",
+      "jp": "セントラルキー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Figure Coin",
+      "jp": "フィギュアコイン",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Force Metal",
+      "jp": "フォースメタル",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Gain WE +10",
+      "jp": "WEゲイン+10",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Gain WE +25",
+      "jp": "WEゲイン+25",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Gold Blader",
+      "jp": "ゴールドブレイダー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Heavy Motor",
+      "jp": "ヘビーモーター",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Hunter Base",
+      "jp": "ハンターベース",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Interceptor",
+      "jp": "インターセプター",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Lagrano Key",
+      "jp": "ラグラノキー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Liquid Glob",
+      "jp": "リキッドボーン",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Mach Jentra",
+      "jp": "マッハジェントラー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Mechaniloid",
+      "jp": "メカニロイド",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Mega Mantor",
+      "jp": "メガマントル",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Metal Boxer",
+      "jp": "メタルボクサー",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Red Pickaxe",
+      "jp": "赤色つるはし",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Rush Loader",
+      "jp": "ラッシュローダー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Silver Horn",
+      "jp": "シルバーホーンド",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Sinedropper",
+      "jp": "サインフォーラー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Tank Energy",
+      "jp": "タンクエナジー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Tianna Camp",
+      "jp": "ティアナ海底収容所",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Trade Sheet",
+      "jp": "トレードシート",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Belladonna",
+      "jp": "ベラドンナー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Big Monkey",
+      "jp": "ビッグモンキー",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Difficulty",
+      "jp": "難易度",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Dr. Psyche",
+      "jp": "Dr.サイケ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Eighttails",
+      "jp": "エイトテイルズ",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Fat Slicer",
+      "jp": "ファットスライサー",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Gain Hyper",
+      "jp": "ゲインHYPER",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Gain HYPER",
+      "jp": "ゲインHYPER",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Gain WE +5",
+      "jp": "WEゲイン+5",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Lucky Girl",
+      "jp": "ラッキーガール",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Mini Motor",
+      "jp": "プチモーター",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Patrol Dog",
+      "jp": "パトドッグ",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Rafflesian",
+      "jp": "ラフレシアン",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Seventails",
+      "jp": "セブンテイルズ",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Stat boost",
+      "jp": "能力UP",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Tank Parts",
+      "jp": "タンクパーツ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Threetails",
+      "jp": "スリーテイルズ",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Tianna Key",
+      "jp": "ティアナキー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Ultra Fire",
+      "jp": "ドメガファイア",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Wild Jango",
+      "jp": "ワイルドジャンゴー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Zero Shift",
+      "jp": "ZEROシフト",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Aile's ID",
+      "jp": "エールのID",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Anti-lock",
+      "jp": "アンチロック",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Anti-Lock",
+      "jp": "アンチロック",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Block All",
+      "jp": "オールブロック",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Dober Man",
+      "jp": "ドーベルワン",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Eagle Eye",
+      "jp": "アイポイント",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Einhammer",
+      "jp": "アインハンマー",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Fivetails",
+      "jp": "ファイブテイルズ",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Fourtails",
+      "jp": "フォーテイルズ",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Good Luck",
+      "jp": "グッドラック",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Mega Fire",
+      "jp": "メガファイア",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Melda Key",
+      "jp": "メルダキー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Ninetails",
+      "jp": "ナインテイルズ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Prison ID",
+      "jp": "プリズンID",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Tank Part",
+      "jp": "タンクパーツ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Bat Bone",
+      "jp": "バットンボーン",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Blowfish",
+      "jp": "ガルプファー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Bone Key",
+      "jp": "キーボーン",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Build LE",
+      "jp": "ビルドLE",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Build WE",
+      "jp": "ビルドWE",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Cinnamon",
+      "jp": "シナモン",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Cure All",
+      "jp": "フルリペアオール",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Cure One",
+      "jp": "フルリペア",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Deerball",
+      "jp": "ボール・ド・ボー",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Degraver",
+      "jp": "ディグレイバー",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Meltdown",
+      "jp": "メルトダウン",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Mobility",
+      "jp": "移動力",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Pararoid",
+      "jp": "パラロイド",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Scarface",
+      "jp": "スカーフェイス",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Sixtails",
+      "jp": "シックステイルズ",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Sky Room",
+      "jp": "スカイルーム",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Speed +3",
+      "jp": "スピード+3",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Speed +5",
+      "jp": "スピード+5",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Sub Tank",
+      "jp": "サブタンク",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Twotails",
+      "jp": "ツーテイルズ",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Wolfloid",
+      "jp": "ウルフロイド",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Z-Rapier",
+      "jp": "Zレイピア",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Caution",
+      "jp": "けいかい",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Chief R",
+      "jp": "チーフR",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Epsilon",
+      "jp": "イプシロン",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Gaudile",
+      "jp": "ガウディル",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Hacking",
+      "jp": "ハッキング",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Jasmine",
+      "jp": "ジャスミン",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Massimo",
+      "jp": "マッシモ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Mettaur",
+      "jp": "メットール",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Onetail",
+      "jp": "ワンテイル",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Saffron",
+      "jp": "サフラン",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Warm-up",
+      "jp": "ウォームアップ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "X Heart",
+      "jp": "Xハート",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Backup",
+      "jp": "バックアップ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Bladey",
+      "jp": "ブレーディー",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Cooler",
+      "jp": "クーラー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Ferham",
+      "jp": "フェラム",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Marino",
+      "jp": "マリノ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Rabbid",
+      "jp": "レイビット",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Reboot",
+      "jp": "リブート",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Shadow",
+      "jp": "シャドウ",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Spider",
+      "jp": "スパイダー",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Bluff",
+      "jp": "ブラフ",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Botos",
+      "jp": "ボロック",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Cumin",
+      "jp": "クミン",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Decoy",
+      "jp": "スペアボディ",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Disks",
+      "jp": "ディスク",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Items",
+      "jp": "アイテム",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Joker",
+      "jp": "JOKER",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Preon",
+      "jp": "プレオン",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Zenny",
+      "jp": "ゼニー",
+      "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "Aile",
+      "jp": "エール",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Nana",
+      "jp": "ナナ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Zero",
+      "jp": "ゼロ",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Axl",
+      "jp": "アクセル",
+      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    }
+  ]
+}
