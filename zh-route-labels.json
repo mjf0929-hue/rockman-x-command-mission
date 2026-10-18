@@ -1,0 +1,201 @@
+{
+  "notice": "此表是為了讓中文版逐步導航不用依賴英文位置別名，屬於中文描述性地標，不可當作日版遊戲選單的精確日文。",
+  "labels": [
+    {
+      "en": "Shaft 999F",
+      "zh": "地下999樓電梯井"
+    },
+    {
+      "en": "Air City Gate",
+      "zh": "空中都市入口"
+    },
+    {
+      "en": "Hall A",
+      "zh": "A區大廳"
+    },
+    {
+      "en": "Hall B",
+      "zh": "B區大廳"
+    },
+    {
+      "en": "East Square",
+      "zh": "東側廣場"
+    },
+    {
+      "en": "North Square",
+      "zh": "北側廣場"
+    },
+    {
+      "en": "Shopping Arcade",
+      "zh": "商店街"
+    },
+    {
+      "en": "Base Entrance",
+      "zh": "基地入口"
+    },
+    {
+      "en": "Access Tower E-1",
+      "zh": "E-1塔樓通道"
+    },
+    {
+      "en": "Base Security Station",
+      "zh": "基地警備站"
+    },
+    {
+      "en": "Access Tunnel",
+      "zh": "聯絡通道"
+    },
+    {
+      "en": "Tower Base Access Tunnel",
+      "zh": "塔樓基部聯絡通道"
+    },
+    {
+      "en": "Tower Base Access",
+      "zh": "塔樓基部入口"
+    },
+    {
+      "en": "Command Room",
+      "zh": "指揮室"
+    },
+    {
+      "en": "Maintenance B",
+      "zh": "B區維修室"
+    },
+    {
+      "en": "3rd Street",
+      "zh": "第三街道"
+    },
+    {
+      "en": "Maze Area 1",
+      "zh": "迷宮區域1"
+    },
+    {
+      "en": "Maze Area 2",
+      "zh": "迷宮區域2"
+    },
+    {
+      "en": "Maze 1",
+      "zh": "迷宮1"
+    },
+    {
+      "en": "Deep Prison",
+      "zh": "地下監獄"
+    },
+    {
+      "en": "Lift 1",
+      "zh": "1號升降機"
+    },
+    {
+      "en": "Lift 2",
+      "zh": "2號升降機"
+    },
+    {
+      "en": "Lift 4",
+      "zh": "4號升降機"
+    },
+    {
+      "en": "Save Point",
+      "zh": "儲存點"
+    },
+    {
+      "en": "Observation Deck",
+      "zh": "觀景甲板"
+    },
+    {
+      "en": "East Deck Main Route",
+      "zh": "東側甲板主路"
+    },
+    {
+      "en": "Laboratory Approach",
+      "zh": "研究室前通道"
+    },
+    {
+      "en": "Stump Approach",
+      "zh": "樹樁通道"
+    },
+    {
+      "en": "Smelting Furnace 1",
+      "zh": "第一熔爐"
+    },
+    {
+      "en": "Freight Area",
+      "zh": "貨運區"
+    },
+    {
+      "en": "Parts Intake Line",
+      "zh": "零件進貨線"
+    },
+    {
+      "en": "Parts Delivery Line",
+      "zh": "零件配送線"
+    },
+    {
+      "en": "Computer Room",
+      "zh": "電腦室"
+    },
+    {
+      "en": "Boss",
+      "zh": "頭目"
+    },
+    {
+      "en": "BOSS",
+      "zh": "頭目"
+    },
+    {
+      "en": "Mechaniloid",
+      "zh": "メカニロイド"
+    },
+    {
+      "en": "Reploid",
+      "zh": "レプリロイド"
+    },
+    {
+      "en": "Action Trigger",
+      "zh": "動作觸發技"
+    },
+    {
+      "en": "Party Line",
+      "zh": "隊伍交換功能"
+    },
+    {
+      "en": "Deployment",
+      "zh": "派遣"
+    },
+    {
+      "en": "Sketch",
+      "zh": "設定原畫"
+    },
+    {
+      "en": "Movie",
+      "zh": "劇情影片"
+    },
+    {
+      "en": "Music",
+      "zh": "音樂"
+    },
+    {
+      "en": "Data",
+      "zh": "資料"
+    },
+    {
+      "en": "Figure",
+      "zh": "模型"
+    },
+    {
+      "en": "NPC",
+      "zh": "NPC"
+    },
+    {
+      "en": "Item",
+      "zh": "道具"
+    },
+    {
+      "en": "Guide",
+      "zh": "攻略"
+    },
+    {
+      "en": "Wild Jango",
+      "zh": "ワイルド・ジャンゴー"
+    }
+  ]
+}
