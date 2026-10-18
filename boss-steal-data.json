@@ -1,0 +1,923 @@
+{
+  "game": "Rockman X Command Mission PS2 Japanese SLPM-65643",
+  "version": "2026-10-19",
+  "intro": "按實際戰鬥形態分筆：全部主線 Boss（含無可偷取）、復活型態、可選Boss、九尾。日文裝備名只有可靠核對的才寫，其他保留繁中與英文索引供查證。",
+  "sources": {
+    "PS2": "https://gamefaqs.gamespot.com/ps2/919001-mega-man-x-command-mission/faqs/33063",
+    "RMMH_EX": "https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-guide-ex.html",
+    "RMMH_CH10": "https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-guide-10.html",
+    "RMMH_ITEM": "https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-data-2.html"
+  },
+  "items": {
+    "P1": [
+      "防護＋1",
+      "Protect+1",
+      null
+    ],
+    "TG": [
+      "雷屬防護",
+      "Thunder Guard",
+      "サンダーガード"
+    ],
+    "CA": [
+      "格鬥吸收",
+      "Combat Absorber",
+      null
+    ],
+    "SA": [
+      "射擊吸收",
+      "Shot Absorber",
+      null
+    ],
+    "VM": [
+      "病毒飛彈",
+      "Virus Missile",
+      null
+    ],
+    "SM": [
+      "煙霧飛彈",
+      "Smoke Missile",
+      null
+    ],
+    "ALL": [
+      "全體完全修復",
+      "Cure All",
+      "フルリペアオール"
+    ],
+    "TN": [
+      "牽引網",
+      "Tractor Net",
+      null
+    ],
+    "TF": [
+      "雙重火焰",
+      "Twin Fire",
+      null
+    ],
+    "TE100": [
+      "水槽能量100",
+      "Tank Energy 100",
+      "タンクエナジー100"
+    ],
+    "GH": [
+      "HYPER回復",
+      "Gain Hyper",
+      "ゲインHYPER"
+    ],
+    "UL": [
+      "解除限制程式",
+      "Unlock Limiter",
+      "リミッター解除"
+    ],
+    "BA": [
+      "裝甲強化工具",
+      "Build Armor",
+      "ビルドアーマー"
+    ],
+    "BS": [
+      "護盾強化工具",
+      "Build Shield",
+      "ビルドシールド"
+    ],
+    "BWE": [
+      "WE強化工具",
+      "Build WE",
+      "ビルドWE"
+    ],
+    "BLE": [
+      "LE強化工具",
+      "Build LE",
+      "ビルドLE"
+    ],
+    "SA2": [
+      "超級吸收器",
+      "Super Absorber",
+      null
+    ],
+    "FR": [
+      "火屬防壁",
+      "Fire Resist",
+      "レジストファイア"
+    ],
+    "FM": [
+      "強制飛彈",
+      "Force Missiles",
+      null
+    ],
+    "BH": [
+      "HYPER強化工具",
+      "Build Hyper",
+      "ビルドHYPER"
+    ],
+    "UT": [
+      "超高壓電擊",
+      "Ultra Thunder",
+      "ドメガサンダー"
+    ],
+    "TR": [
+      "雷屬防壁",
+      "Thunder Resist",
+      "レジストサンダー"
+    ],
+    "P5": [
+      "防護＋5",
+      "Protect+5",
+      null
+    ],
+    "FS3": [
+      "全性能＋3",
+      "Full Specs+3",
+      null
+    ],
+    "BP": [
+      "力量強化工具",
+      "Build Power",
+      "ビルドパワー"
+    ],
+    "BSP": [
+      "速度強化工具",
+      "Build Speed",
+      "ビルドスピード"
+    ],
+    "UP": [
+      "力量提升",
+      "Boost Power",
+      "パワーアップ"
+    ],
+    "UA": [
+      "裝甲提升",
+      "Boost Armor",
+      "アーマーアップ"
+    ],
+    "US": [
+      "護盾提升",
+      "Boost Shield",
+      "シールドアップ"
+    ],
+    "UV": [
+      "速度提升",
+      "Boost Speed",
+      "スピードアップ"
+    ],
+    "BL": [
+      "野獸長槍",
+      "Beast Lancer",
+      "ビーストランサー"
+    ],
+    "REI": [
+      "零影",
+      "Rei Ichimonji",
+      "零影"
+    ],
+    "ALPHA": [
+      "超FM碎片α",
+      "SFM Fragment Alpha",
+      "超FMのかけらα"
+    ],
+    "BETA": [
+      "超FM碎片β",
+      "SFM Fragment Beta",
+      "超FMのかけらβ"
+    ],
+    "NE10": [
+      "反侵蝕10",
+      "Neutralizer-10",
+      null
+    ],
+    "NE20": [
+      "反侵蝕20",
+      "Neutralizer-20",
+      null
+    ],
+    "FT": [
+      "四連裝戰斧飛彈",
+      "Force Tomahawk",
+      null
+    ],
+    "UF": [
+      "超高溫火焰",
+      "Ultra Fire",
+      "ドメガファイア"
+    ]
+  },
+  "entries": [
+    {
+      "id": "boss-01",
+      "chapter": "CH1",
+      "zh": "巨型河馬壓路機",
+      "jp": "ヒポポプレッサー",
+      "place": "第一章頭目",
+      "steals": [],
+      "replay": "不可直接重戰",
+      "note": "PS2 頭目資料列 Steal N/A；不用反覆使用偷取副武器。"
+    },
+    {
+      "id": "boss-02",
+      "chapter": "CH2",
+      "zh": "史派達（劇情敵對戰）",
+      "jp": "スパイダー",
+      "place": "第二章劇情戰",
+      "steals": [],
+      "replay": "劇情限定",
+      "note": "史派達之後是隊友；這場 Boss 沒有可偷道具。"
+    },
+    {
+      "id": "boss-03",
+      "chapter": "CH2",
+      "zh": "狂野強哥",
+      "jp": "ワイルドジャンゴー",
+      "place": "第二章主要頭目",
+      "steals": [
+        {
+          "key": "P1",
+          "rate": 25
+        },
+        {
+          "key": "TG",
+          "rate": 25
+        }
+      ],
+      "replay": "CH10 有強化再戰，偷物不同"
+    },
+    {
+      "id": "boss-04",
+      "chapter": "CH3",
+      "zh": "銀色巨角",
+      "jp": "シルバーホーンド",
+      "place": "第三章主要頭目",
+      "steals": [
+        {
+          "key": "CA",
+          "rate": 20
+        },
+        {
+          "key": "SA",
+          "rate": 20
+        }
+      ],
+      "replay": "CH10 有強化再戰，偷物不同"
+    },
+    {
+      "id": "boss-05",
+      "chapter": "CH4",
+      "zh": "賽克博士（第一型態）",
+      "jp": "Dr.サイケ",
+      "place": "第四章第一型態",
+      "steals": [
+        {
+          "key": "VM",
+          "rate": 25
+        },
+        {
+          "key": "SM",
+          "rate": 25
+        }
+      ],
+      "replay": "劇情連續戰",
+      "note": "進入鸚鵡螺型態前想偷必須先處理，下一型態是不同偷取表。"
+    },
+    {
+      "id": "boss-06",
+      "chapter": "CH4",
+      "zh": "瘋狂鸚鵡螺（第二型態）",
+      "jp": "マッドノーチラス",
+      "place": "第四章第二型態",
+      "steals": [
+        {
+          "key": "ALL",
+          "rate": 100
+        },
+        {
+          "key": "TN",
+          "rate": 5
+        }
+      ],
+      "replay": "CH10 可重戰，但偷物不同"
+    },
+    {
+      "id": "boss-07",
+      "chapter": "CH5",
+      "zh": "馬赫紳士",
+      "jp": "マッハジェントラー",
+      "place": "第五章頭目",
+      "steals": [
+        {
+          "key": "TF",
+          "rate": 100
+        },
+        {
+          "key": "TE100",
+          "rate": 50
+        }
+      ],
+      "replay": "CH10 有強化再戰，偷物不同"
+    },
+    {
+      "id": "boss-08",
+      "chapter": "CH6",
+      "zh": "夏德（第一戰）",
+      "jp": "シャドウ",
+      "place": "第六章第一型態",
+      "steals": [
+        {
+          "key": "GH",
+          "rate": 25
+        },
+        {
+          "key": "UL",
+          "rate": 20
+        }
+      ],
+      "replay": "劇情雙階段",
+      "note": "這場持續回合有限，進入第二階段後無法補偷第一戰的道具。"
+    },
+    {
+      "id": "boss-09",
+      "chapter": "CH6",
+      "zh": "夏德（第二戰）",
+      "jp": "シャドウ",
+      "place": "第六章第二型態",
+      "steals": [
+        {
+          "key": "BA",
+          "rate": 20
+        },
+        {
+          "key": "BS",
+          "rate": 20
+        }
+      ],
+      "replay": "劇情雙階段",
+      "note": "與第一戰偷取表不同；請分開檢查。"
+    },
+    {
+      "id": "boss-10",
+      "chapter": "CH6",
+      "zh": "安榭塔斯",
+      "jp": "エンシェンタス",
+      "place": "第六章頭目",
+      "steals": [
+        {
+          "key": "BWE",
+          "rate": 20
+        },
+        {
+          "key": "BLE",
+          "rate": 20
+        }
+      ],
+      "replay": "CH10 再戰偷取資料來源衝突",
+      "note": "首戰依 PS2 NeoChozo 資料；後期再戰需看另一筆。"
+    },
+    {
+      "id": "boss-11",
+      "chapter": "CH7",
+      "zh": "波羅克（首次 Boss）",
+      "jp": "ボロック",
+      "place": "第七章",
+      "steals": [
+        {
+          "key": "SA2",
+          "rate": 20
+        },
+        {
+          "key": "FR",
+          "rate": 20
+        }
+      ],
+      "replay": "CH8 出現短戰與假身",
+      "note": "英文 Super Absorber 正式日文原名尚未可靠核對，暫不自行音譯。"
+    },
+    {
+      "id": "boss-12",
+      "chapter": "CH8",
+      "zh": "波羅克（追逐短戰）",
+      "jp": "ボロック",
+      "place": "第八章短戰",
+      "steals": [],
+      "replay": "劇情短戰",
+      "note": "LE極低；PS2 指南列沒有可偷取物。"
+    },
+    {
+      "id": "boss-13",
+      "chapter": "CH8",
+      "zh": "假波羅克／Q-Bit 偽裝",
+      "jp": "ポロック",
+      "place": "第八章兩段分身岔路",
+      "steals": [],
+      "replay": "兩次可遭遇",
+      "note": "與真正ボロック不同，PS2 主線表記無可偷取物。"
+    },
+    {
+      "id": "boss-14",
+      "chapter": "CH8",
+      "zh": "費拉姆",
+      "jp": "フェラム",
+      "place": "第八章主要頭目",
+      "steals": [
+        {
+          "key": "BH",
+          "rate": 20
+        },
+        {
+          "key": "FM",
+          "rate": 20
+        }
+      ],
+      "replay": "劇情限定",
+      "note": "強制飛彈（Force Missiles）的實際日文副武器名待核對；擊破掉落不等於偷取成功。"
+    },
+    {
+      "id": "boss-15",
+      "chapter": "CH9",
+      "zh": "刀疤鐵面（空中巴士第一次）",
+      "jp": "スカーフェイス",
+      "place": "第九章開頭",
+      "steals": [
+        {
+          "key": "UT",
+          "rate": 50
+        },
+        {
+          "key": "TR",
+          "rate": 25
+        }
+      ],
+      "replay": "失敗仍可推劇情",
+      "note": "此戰可在失敗後續主線，若要收稀有物，最好在戰前準備存檔，別因劇情能進而略過。"
+    },
+    {
+      "id": "boss-16",
+      "chapter": "CH9",
+      "zh": "刀疤鐵面（遺跡內第二次）",
+      "jp": "スカーフェイス",
+      "place": "第九章末連戰",
+      "steals": [
+        {
+          "key": "TE100",
+          "rate": 100
+        }
+      ],
+      "replay": "第一、二戰偷取內容不同"
+    },
+    {
+      "id": "boss-17",
+      "chapter": "CH9",
+      "zh": "伊普西隆（第一階段）",
+      "jp": "イプシロン",
+      "place": "第九章末連戰第二場",
+      "steals": [
+        {
+          "key": "P5",
+          "rate": 25
+        },
+        {
+          "key": "FS3",
+          "rate": 25
+        }
+      ],
+      "replay": "劇情階段轉換",
+      "note": "擊破轉進イプシロンイジェクト前先確認可偷物，不能當成同一 Boss 共用偷表。"
+    },
+    {
+      "id": "boss-18",
+      "chapter": "CH9",
+      "zh": "伊普西隆解放體",
+      "jp": "イプシロンイジェクト",
+      "place": "第九章末連戰第三場",
+      "steals": [
+        {
+          "key": "GH",
+          "rate": 50
+        },
+        {
+          "key": "BH",
+          "rate": 50
+        }
+      ],
+      "replay": "第九章一次性連戰"
+    },
+    {
+      "id": "boss-19",
+      "chapter": "CH10",
+      "zh": "狂野強哥（再戰）",
+      "jp": "ワイルドジャンゴー",
+      "place": "極東司令部復活頭目",
+      "steals": [
+        {
+          "key": "UP",
+          "rate": 100
+        }
+      ],
+      "replay": "不同於CH2"
+    },
+    {
+      "id": "boss-20",
+      "chapter": "CH10",
+      "zh": "銀色巨角（再戰）",
+      "jp": "シルバーホーンド",
+      "place": "極東司令部四門之一",
+      "steals": [
+        {
+          "key": "UA",
+          "rate": 100
+        }
+      ],
+      "replay": "不同於CH3"
+    },
+    {
+      "id": "boss-21",
+      "chapter": "CH10",
+      "zh": "瘋狂鸚鵡螺（再戰）",
+      "jp": "マッドノーチラス",
+      "place": "極東司令部四門之一",
+      "steals": [
+        {
+          "key": "US",
+          "rate": 100
+        }
+      ],
+      "replay": "不同於CH4"
+    },
+    {
+      "id": "boss-22",
+      "chapter": "CH10",
+      "zh": "馬赫紳士（再戰）",
+      "jp": "マッハジェントラー",
+      "place": "極東司令部四門之一",
+      "steals": [
+        {
+          "key": "UV",
+          "rate": 100
+        }
+      ],
+      "replay": "不同於CH5"
+    },
+    {
+      "id": "boss-23",
+      "chapter": "CH10",
+      "zh": "安榭塔斯（再戰）",
+      "jp": "エンシェンタス",
+      "place": "極東司令部四門之一",
+      "steals": [
+        {
+          "key": "UL",
+          "rate": 100
+        }
+      ],
+      "replay": "不同於CH6",
+      "authority": "RMMH 日版／繁中",
+      "conflict": "RMMH 第十章與日版道具表記「解除限制程式」100%；NeoChozo PS2 英文 FAQ 卻列「Build WE 20%／Build LE 20%」。此筆優先呈現 RMMH，尚須日版實機再核對。"
+    },
+    {
+      "id": "boss-24",
+      "chapter": "CH10",
+      "zh": "深海龍騎兵",
+      "jp": "デプスドラグーン",
+      "place": "極東司令部第三層",
+      "steals": [
+        {
+          "key": "BL",
+          "rate": 3
+        }
+      ],
+      "replay": "劇情限定",
+      "priority": "重要",
+      "note": "麥西摩稀有主武器，低機率；建議擊殺前讓瑪莉諾嘗試偷到。"
+    },
+    {
+      "id": "boss-25",
+      "chapter": "CH10",
+      "zh": "立迪普司上校",
+      "jp": "リディプス",
+      "place": "最終控制室上校戰",
+      "steals": [
+        {
+          "key": "REI",
+          "rate": 5
+        }
+      ],
+      "replay": "劇情限定",
+      "priority": "重要",
+      "note": "傑洛稀有武器，日版原名確實寫「零影」，不要改成自造假片假名。"
+    },
+    {
+      "id": "boss-26",
+      "chapter": "CH10",
+      "zh": "狂神立迪普司（第一型態）",
+      "jp": "ゴッドリディプス",
+      "place": "最終戰第一階段",
+      "steals": [
+        {
+          "key": "ALPHA",
+          "rate": 5
+        }
+      ],
+      "replay": "限回合",
+      "priority": "必留意",
+      "note": "劇情約在第九次敵方行動後強制轉場；α僅此階段，超時沒偷到就無法在第二型態補偷。"
+    },
+    {
+      "id": "boss-27",
+      "chapter": "CH10",
+      "zh": "狂神立迪普司（第二型態）",
+      "jp": "ゴッドリディプス",
+      "place": "最終戰第二階段",
+      "steals": [
+        {
+          "key": "BETA",
+          "rate": 5
+        }
+      ],
+      "replay": "最終階段",
+      "priority": "必留意",
+      "conflict": "NeoChozo PS2 攻略記 5%；RMMH 日版繁中攻略記 1%。日版實機偷取率未確認，按低機率準備。",
+      "note": "β只限第二階段，與 α 分開；擊殺前確認偷取結果。"
+    },
+    {
+      "id": "boss-28",
+      "chapter": "CH10",
+      "zh": "超 FM 左側核心",
+      "jp": "超フォースメタルL",
+      "place": "最終戰第二階段，敵方可選目標",
+      "steals": [
+        {
+          "key": "NE10",
+          "rate": 10
+        },
+        {
+          "key": "NE20",
+          "rate": 10
+        }
+      ],
+      "replay": "僅最終戰",
+      "note": "這是可獨立選取的側邊目標，不是本體；左／右兩個分開列出。",
+      "authority": "NeoChozo PS2"
+    },
+    {
+      "id": "boss-29",
+      "chapter": "CH10",
+      "zh": "超 FM 右側核心",
+      "jp": "超フォースメタルR",
+      "place": "最終戰第二階段，敵方可選目標",
+      "steals": [
+        {
+          "key": "NE10",
+          "rate": 10
+        },
+        {
+          "key": "NE20",
+          "rate": 10
+        }
+      ],
+      "replay": "僅最終戰",
+      "note": "與左核心相同的可偷表，但屬於另一個可選目標。",
+      "authority": "NeoChozo PS2"
+    },
+    {
+      "id": "boss-30",
+      "chapter": "隱藏",
+      "zh": "拉芙蕾西亞",
+      "jp": "ラフレシアン",
+      "place": "提亞納海底收容所隱藏門",
+      "steals": [
+        {
+          "key": "BLE",
+          "rate": 25
+        },
+        {
+          "key": "FT",
+          "rate": 25
+        }
+      ],
+      "replay": "秘密門限定",
+      "priority": "隱藏",
+      "authority": "RMMH 日版／繁中",
+      "note": "雙方旁邊的雜兵不等於本體，應把偷取目標選在ラフレシアン。"
+    },
+    {
+      "id": "boss-31",
+      "chapter": "隱藏",
+      "zh": "大槌鴨嘴獸",
+      "jp": "ダックビルモール",
+      "place": "美爾達工廠隱藏區",
+      "steals": [
+        {
+          "key": "FR",
+          "rate": 20
+        },
+        {
+          "key": "UF",
+          "rate": 25
+        }
+      ],
+      "replay": "秘密門限定",
+      "priority": "隱藏",
+      "authority": "RMMH 日版／繁中",
+      "note": "這場和傑洛アブソリュートゼロ的秘密區解鎖相連。"
+    },
+    {
+      "id": "boss-32",
+      "chapter": "隱藏",
+      "zh": "巨大梅特爾（可選強敵）",
+      "jp": "メットールギガント",
+      "place": "幾米亞拉礦坑隱藏區",
+      "steals": [
+        {
+          "key": "TE100",
+          "rate": 50
+        }
+      ],
+      "replay": "可選敵人",
+      "authority": "RMMH敵人資料",
+      "note": "此項是可選特殊強敵，不計入主線頭目數；PS2 FAQ 也可能歸為普通機械敵人，需實機核對其分類。"
+    },
+    {
+      "id": "boss-33",
+      "chapter": "九尾",
+      "zh": "一尾",
+      "jp": "ワンテイル",
+      "place": "破關後中央塔特別封印區・第1戰",
+      "steals": [
+        {
+          "key": "BLE",
+          "rate": 10
+        },
+        {
+          "key": "BWE",
+          "rate": 10
+        }
+      ],
+      "replay": "破關後隱藏",
+      "authority": "RMMH 日版／繁中",
+      "priority": "隱藏"
+    },
+    {
+      "id": "boss-34",
+      "chapter": "九尾",
+      "zh": "二尾",
+      "jp": "ツーテイルズ",
+      "place": "破關後中央塔特別封印區・第2戰",
+      "steals": [
+        {
+          "key": "BP",
+          "rate": 10
+        },
+        {
+          "key": "BSP",
+          "rate": 10
+        }
+      ],
+      "replay": "破關後隱藏",
+      "authority": "RMMH 日版／繁中",
+      "priority": "隱藏",
+      "conflict": "NeoChozo PS2 英文 FAQ 對此戰的部分偷取率與 RMMH 不同；表內以台灣日版資料為主。"
+    },
+    {
+      "id": "boss-35",
+      "chapter": "九尾",
+      "zh": "三尾",
+      "jp": "スリーテイルズ",
+      "place": "破關後中央塔特別封印區・第3戰",
+      "steals": [
+        {
+          "key": "BA",
+          "rate": 10
+        },
+        {
+          "key": "BS",
+          "rate": 10
+        }
+      ],
+      "replay": "破關後隱藏",
+      "authority": "RMMH 日版／繁中",
+      "priority": "隱藏",
+      "conflict": "NeoChozo PS2 英文 FAQ 對此戰的部分偷取率與 RMMH 不同；表內以台灣日版資料為主。"
+    },
+    {
+      "id": "boss-36",
+      "chapter": "九尾",
+      "zh": "四尾",
+      "jp": "フォーテイルズ",
+      "place": "破關後中央塔特別封印區・第4戰",
+      "steals": [
+        {
+          "key": "UL",
+          "rate": 10
+        },
+        {
+          "key": "BH",
+          "rate": 10
+        }
+      ],
+      "replay": "破關後隱藏",
+      "authority": "RMMH 日版／繁中",
+      "priority": "隱藏",
+      "conflict": "NeoChozo PS2 英文 FAQ 對此戰的部分偷取率與 RMMH 不同；表內以台灣日版資料為主。"
+    },
+    {
+      "id": "boss-37",
+      "chapter": "九尾",
+      "zh": "五尾",
+      "jp": "ファイブテイルズ",
+      "place": "破關後中央塔特別封印區・第5戰",
+      "steals": [
+        {
+          "key": "BA",
+          "rate": 25
+        },
+        {
+          "key": "BS",
+          "rate": 25
+        }
+      ],
+      "replay": "破關後隱藏",
+      "authority": "RMMH 日版／繁中",
+      "priority": "隱藏",
+      "note": "五尾的「裝甲／護盾強化工具」確定是ビルドアーマー／ビルドシールド，不是アーマーアップ／シールドアップ。"
+    },
+    {
+      "id": "boss-38",
+      "chapter": "九尾",
+      "zh": "六尾",
+      "jp": "シックステイルズ",
+      "place": "破關後中央塔特別封印區・第6戰",
+      "steals": [
+        {
+          "key": "BLE",
+          "rate": 10
+        },
+        {
+          "key": "BWE",
+          "rate": 10
+        }
+      ],
+      "replay": "破關後隱藏",
+      "authority": "RMMH 日版／繁中",
+      "priority": "隱藏",
+      "note": "六尾有第10及第20次敵行動的回合壓力，不建議為了偷取拖延。"
+    },
+    {
+      "id": "boss-39",
+      "chapter": "九尾",
+      "zh": "七尾",
+      "jp": "セブンテイルズ",
+      "place": "破關後中央塔特別封印區・第7戰",
+      "steals": [
+        {
+          "key": "BP",
+          "rate": 10
+        },
+        {
+          "key": "BSP",
+          "rate": 10
+        }
+      ],
+      "replay": "破關後隱藏",
+      "authority": "RMMH 日版／繁中",
+      "priority": "隱藏"
+    },
+    {
+      "id": "boss-40",
+      "chapter": "九尾",
+      "zh": "八尾",
+      "jp": "エイトテイルズ",
+      "place": "破關後中央塔特別封印區・第8戰",
+      "steals": [
+        {
+          "key": "BP",
+          "rate": 25
+        },
+        {
+          "key": "BSP",
+          "rate": 25
+        }
+      ],
+      "replay": "破關後隱藏",
+      "authority": "RMMH 日版／繁中",
+      "priority": "隱藏"
+    },
+    {
+      "id": "boss-41",
+      "chapter": "九尾",
+      "zh": "九尾",
+      "jp": "ナインテイルズ",
+      "place": "破關後中央塔特別封印區・第9戰",
+      "steals": [
+        {
+          "key": "BWE",
+          "rate": 10
+        },
+        {
+          "key": "BH",
+          "rate": 10
+        }
+      ],
+      "replay": "破關後隱藏",
+      "authority": "RMMH 日版／繁中",
+      "priority": "重要",
+      "note": "九尾表列兩件可偷物，各10%；部分英文PS2 FAQ標100%，不可當成日版保證。",
+      "conflict": "NeoChozo PS2 英文 FAQ 對此戰的部分偷取率與 RMMH 不同；表內以台灣日版資料為主。"
+    }
+  ]
+}
