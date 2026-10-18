@@ -5,7 +5,8 @@
     "https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-data-4.html",
     "https://rmmh.blogspot.com/2020/05/rockman-x-command-mission-data-5.html",
     "https://ja.wikipedia.org/wiki/ロックマンX_コマンドミッション",
-    "https://megaman.fandom.com/wiki/Preon"
+    "https://megaman.fandom.com/wiki/Preon",
+    "https://wikiwiki.jp/animegameex3/ロックマンＸコマンドミッション"
   ],
   "terms": [
     {
@@ -44,6 +45,16 @@
       "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
     },
     {
+      "en": "Mettaur Commander",
+      "jp": "メットールコマンダー",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Preon Hell Gunner",
+      "jp": "プレオンヘルガンナー",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
       "en": "Infinite Resist",
       "jp": "キープアビリティ",
       "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
@@ -76,7 +87,22 @@
     {
       "en": "Preon Bitmaster",
       "jp": "プレオンビットマスタ",
-      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Mettaur Counter",
+      "jp": "メットールカウンター",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Wild Rescue Dog",
+      "jp": "のらレスキュードッグ",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Preon S Epsilon",
+      "jp": "プレオンＳイプシロン",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Eternal Forest",
@@ -131,12 +157,37 @@
     {
       "en": "Preon Shielder",
       "jp": "プレオンシールダー",
-      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "プレオン Bitmaster",
       "jp": "プレオンビットマスタ",
       "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "Mettaur Gigant",
+      "jp": "メットールギガント",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Silver Mettaur",
+      "jp": "メットールシルバー",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Preon Pressure",
+      "jp": "プレオンプレッシャー",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Preon S Ferham",
+      "jp": "プレオンＳフェラム",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "プレオン S Epsilon",
+      "jp": "プレオンＳイプシロン",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Absolute Zero",
@@ -236,7 +287,7 @@
     {
       "en": "Preon Soldier",
       "jp": "プレオンソルジャー",
-      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Preon Chasers",
@@ -247,6 +298,31 @@
       "en": "プレオン Shielder",
       "jp": "プレオンシールダー",
       "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "Preon S Botos",
+      "jp": "プレオンＳボロック",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "プレオン S Ferham",
+      "jp": "プレオンＳフェラム",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "プレオン Pressure",
+      "jp": "プレオンプレッシャー",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Cannon Driver",
+      "jp": "キャノンドライバー",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Depth Dragoon",
+      "jp": "デプスドラグーン",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Auto Bullets",
@@ -366,17 +442,17 @@
     {
       "en": "Preon Chaser",
       "jp": "プレオンチェイサー",
-      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Preon Gunner",
       "jp": "プレオンガンナー",
-      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Preon Hybrid",
       "jp": "プレオンヘンナー",
-      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Preon Doctor",
@@ -397,6 +473,41 @@
       "en": "プレオン Soldier",
       "jp": "プレオンソルジャー",
       "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "Mettaur Cure",
+      "jp": "メットールキュア",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Gold Mettaur",
+      "jp": "メットールゴールド",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Preon S Face",
+      "jp": "プレオンＳフェイス",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "プレオン S Botos",
+      "jp": "プレオンＳボロック",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Redips Guard",
+      "jp": "リディプスガード",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Great Redips",
+      "jp": "ゴッドリディプス",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Melt Missile",
+      "jp": "メルトミサイル",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Ancient Gun",
@@ -466,7 +577,7 @@
     {
       "en": "Gold Blader",
       "jp": "ゴールドブレイダー",
-      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Heavy Motor",
@@ -491,7 +602,7 @@
     {
       "en": "Liquid Glob",
       "jp": "リキッドボーン",
-      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Mach Jentra",
@@ -521,7 +632,7 @@
     {
       "en": "Rush Loader",
       "jp": "ラッシュローダー",
-      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Silver Horn",
@@ -531,7 +642,7 @@
     {
       "en": "Sinedropper",
       "jp": "サインフォーラー",
-      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Tank Energy",
@@ -551,17 +662,17 @@
     {
       "en": "Preon Spark",
       "jp": "プレオンスパーク",
-      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Preon Elite",
       "jp": "プレオンエリート",
-      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Preon Nurse",
       "jp": "プレオンナース",
-      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "プレオン Chaser",
@@ -582,6 +693,31 @@
       "en": "プレオン Doctor",
       "jp": "プレオンドクター",
       "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "Mettaurcure",
+      "jp": "メットールキュア",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "プレオン S Face",
+      "jp": "プレオンＳフェイス",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Plasma Glob",
+      "jp": "サンダーボーン",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Red Stinger",
+      "jp": "レッドスティンガー",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Far East HQ",
+      "jp": "極東司令部",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Belladonna",
@@ -641,12 +777,12 @@
     {
       "en": "Patrol Dog",
       "jp": "パトドッグ",
-      "src": "本站已收錄之日文對照表"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Rafflesian",
       "jp": "ラフレシアン",
-      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Seventails",
@@ -691,7 +827,7 @@
     {
       "en": "Preon Tank",
       "jp": "プレオンタンク",
-      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "プレオン Spark",
@@ -707,6 +843,11 @@
       "en": "プレオン Nurse",
       "jp": "プレオンナース",
       "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+    },
+    {
+      "en": "Zweihammer",
+      "jp": "ツヴァイハンマー",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Aile's ID",
@@ -731,7 +872,7 @@
     {
       "en": "Dober Man",
       "jp": "ドーベルワン",
-      "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Eagle Eye",
@@ -741,7 +882,7 @@
     {
       "en": "Einhammer",
       "jp": "アインハンマー",
-      "src": "本站已收錄之日文對照表"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Fivetails",
@@ -786,12 +927,12 @@
     {
       "en": "Preon Pod",
       "jp": "プレオンポッド",
-      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Preon Doc",
       "jp": "プレオンドクター",
-      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "プレオン Tank",
@@ -799,9 +940,19 @@
       "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
     },
     {
+      "en": "Wild Dogs",
+      "jp": "ワイルドドッグ",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Fire Glob",
+      "jp": "ファイアボーン",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
       "en": "Bat Bone",
       "jp": "バットンボーン",
-      "src": "本站已收錄之日文對照表"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Blowfish",
@@ -916,7 +1067,17 @@
     {
       "en": "プレオン Doc",
       "jp": "プレオンドクター",
-      "src": "MMKB：Preon 日版正式敵人表（含各型態日文名）"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Wild Dog",
+      "jp": "ワイルドドッグ",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Gift Box",
+      "jp": "ギフトＢＯＸ",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Caution",
@@ -979,6 +1140,11 @@
       "src": "本站已收錄之日文對照表"
     },
     {
+      "en": "Needles",
+      "jp": "ニードルズ",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
       "en": "Backup",
       "jp": "バックアップ",
       "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
@@ -1016,12 +1182,22 @@
     {
       "en": "Shadow",
       "jp": "シャドウ",
-      "src": "本站已收錄之日文對照表"
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Spider",
       "jp": "スパイダー",
       "src": "RMMH 日中英道具／角色及日本遊戲資料核對"
+    },
+    {
+      "en": "Redips",
+      "jp": "リディプス",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
+    },
+    {
+      "en": "Bigbit",
+      "jp": "ビビット",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Bluff",
@@ -1067,6 +1243,11 @@
       "en": "Zenny",
       "jp": "ゼニー",
       "src": "本站已收錄之日文對照表"
+    },
+    {
+      "en": "D-Rex",
+      "jp": "Ｄ－ＲＥＸ",
+      "src": "日本語敵一覧（wikiwiki.jp/animegameex3），必要時按日版實機核對"
     },
     {
       "en": "Aile",
